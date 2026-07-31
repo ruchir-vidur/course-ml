@@ -1,11 +1,11 @@
 import os
-import qdrant_client
 from llama_index.core import VectorStoreIndex, Settings, PromptTemplate
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.vector_stores.qdrant import QdrantVectorStore
 from llama_index.llms.groq import Groq
 # NEW: Import filtering tools
 from llama_index.core.vector_stores import ExactMatchFilter, MetadataFilters
+from qdrant_connection import create_qdrant_client, qdrant_mode_label
 
 # Load the Groq API key from course-ml/.env (nothing secret is hardcoded).
 try:
@@ -27,12 +27,8 @@ def setup_query_engine(selected_course: str):
     Settings.llm = Groq(model="llama-3.3-70b-versatile", api_key=GROQ_API_KEY)
     
     print("3. Connecting to Qdrant Database...")
-    # FIX: Dynamically build an absolute path to the qdrant_db folder
-    # This guarantees it finds your data no matter where you run the script from.
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    db_path = os.path.join(current_dir, "..", "qdrant_db")
-    
-    client = qdrant_client.QdrantClient(path=db_path)
+    client = create_qdrant_client()
+    print(f"   Using {qdrant_mode_label()} Qdrant backend.")
     vector_store = QdrantVectorStore(client=client, collection_name="vidur_course_embeddings")
     
     print("4. Loading Index...")

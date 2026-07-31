@@ -3,7 +3,6 @@ import json
 import threading
 from contextlib import asynccontextmanager
 
-import qdrant_client
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
@@ -21,6 +20,7 @@ from course_resolver import (
     load_mongo_id_to_title,
     load_aliases,
 )
+from qdrant_connection import create_qdrant_client, qdrant_mode_label
 
 # Load a local course-ml/.env if present (for GROQ_API_KEY, MONGO_URI, etc.).
 try:
@@ -78,15 +78,15 @@ async def lifespan(app: FastAPI):
     Settings.llm = Groq(model=LLM_MODEL, api_key=GROQ_API_KEY)
 
     print("3. Connecting to Qdrant...")
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    db_path = os.path.join(current_dir, "..", "qdrant_db")
-    client = qdrant_client.QdrantClient(path=db_path)
+    client = create_qdrant_client()
+    print(f"   Using {qdrant_mode_label()} Qdrant backend.")
     vector_store = QdrantVectorStore(client=client, collection_name=COLLECTION)
 
     print("4. Loading index...")
     _state["index"] = VectorStoreIndex.from_vector_store(vector_store=vector_store)
 
     print("5. Building course resolver...")
+    current_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(current_dir, "..", "data")
     indexed_courses = list_indexed_courses(data_dir)
     id_to_title = load_mongo_id_to_title(MONGO_URI, MONGO_DB)
@@ -242,4 +242,5 @@ def chat_stream(req: ChatRequest):
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run("api:app", host="0.0.0.0", port=8000, reload=False)
+    port = int(os.environ.get("PORT", "8000"))
+    uvicorn.run("api:app", host="0.0.0.0", port=port, reload=False)
