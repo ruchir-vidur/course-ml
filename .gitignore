@@ -1,0 +1,40 @@
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Python environments, caches, and tooling output
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Local application data
+# Course transcripts may be proprietary; add only data you are permitted to share.
+data/*
+!data/.gitkeep
+!data/README.md
+
+# Generated local Qdrant vector index (rebuild with: python src/embedding.py)
+qdrant_db/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

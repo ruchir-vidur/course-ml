@@ -1,0 +1,4 @@
+{
+  "_comment": "Explicit course_id overrides for the RAG index. Key = Mongo course _id (stable), value = transcript folder name under course-ml/data. Used only when the Mongo course TITLE doesn't match (or fuzzy-match) a folder name. The frontend sends the Mongo title; the resolver maps it here via the _id. Add an entry whenever a new course's transcripts land under a folder whose name differs from the course title.",
+  "69cbd52f71fd6cf49d5840cc": "Counsellor training program level 1"
+}
