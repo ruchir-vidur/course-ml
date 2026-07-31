@@ -24,7 +24,7 @@ dist/
 
 # Local application data
 # Course transcripts may be proprietary; add only data you are permitted to share.
-data/*
+# data/*
 !data/.gitkeep
 !data/README.md
 

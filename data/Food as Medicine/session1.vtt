@@ -1,0 +1,1682 @@
+WEBVTT
+
+1
+00:00:33.590 --> 00:00:37.259
+Mridul Sharma: Wait for 5 minutes, and then we'll start the session.
+
+2
+00:04:51.720 --> 00:04:53.659
+Mridul Sharma: Am I audible to yours?
+
+3
+00:04:54.930 --> 00:04:56.060
+Sattvastha Ventures: Here's your audience.
+
+4
+00:04:56.570 --> 00:04:57.660
+Mridul Sharma: Okay, great.
+
+5
+00:04:57.790 --> 00:05:02.920
+Mridul Sharma: So, hello everyone. A very warm welcome to today's webinar. I'm so glad
+
+6
+00:05:03.060 --> 00:05:06.830
+Mridul Sharma: To have one of, like, each one of you here with us today.
+
+7
+00:05:06.930 --> 00:05:18.739
+Mridul Sharma: Let me quickly introduce myself. My… I am Radul Sharma, and I wear a couple of hats here. I am scientist at CAC IIT Bombay, and also product hat at Vidu.
+
+8
+00:05:19.150 --> 00:05:21.919
+Mridul Sharma: And today, I will be your moderator for this session, too.
+
+9
+00:05:22.050 --> 00:05:30.120
+Mridul Sharma: So, before we dive in, I just want to take a moment to set the stage for upcoming speakers. So…
+
+10
+00:05:30.820 --> 00:05:39.669
+Mridul Sharma: We have a truly wonderful session lined up for you all. I can say with confidence, you will definitely be taking something valuable home today.
+
+11
+00:05:39.870 --> 00:05:45.549
+Mridul Sharma: Now, as you all know, our main speaker today is Dr. Sayingvita Kulkarniji.
+
+12
+00:05:45.770 --> 00:05:49.490
+Mridul Sharma: Who will be sharing her expertise and insights
+
+13
+00:05:49.740 --> 00:05:53.509
+Mridul Sharma: with all of you very shortly, and I promise it will be worth waiting for.
+
+14
+00:05:53.780 --> 00:05:56.849
+Mridul Sharma: So, before we get to that, I have a little something more…
+
+15
+00:05:56.980 --> 00:06:01.050
+Mridul Sharma: in store for you all. Many of… You may already know him.
+
+16
+00:06:01.450 --> 00:06:03.819
+Mridul Sharma: And those who don't allow me
+
+17
+00:06:04.130 --> 00:06:10.139
+Mridul Sharma: He is a dear friend of mine, a colleague of mine, a PhD scholar at IIT Bombay, and co-founder
+
+18
+00:06:10.260 --> 00:06:17.960
+Mridul Sharma: Suraj is going to take a few moments to give us a quick showcase of Wendor and its offerings.
+
+19
+00:06:18.110 --> 00:06:20.560
+Mridul Sharma: I have a feeling that you're all going to love that.
+
+20
+00:06:20.740 --> 00:06:24.669
+Mridul Sharma: So, Suraj, my friend, the floor is all yours. Please take over.
+
+21
+00:06:25.940 --> 00:06:29.190
+Suraj Racha: Thanks a lot, Nadal, and first of all.
+
+22
+00:06:29.580 --> 00:06:36.380
+Suraj Racha: I do not want to become a long barrier between you and the session, so I'll be really quick.
+
+23
+00:06:37.080 --> 00:06:43.090
+Suraj Racha: because we are all assembled here, I'd like to take a moment to also introduce what we are doing at Vidhur.
+
+24
+00:06:43.270 --> 00:06:59.159
+Suraj Racha: And what are the various opportunities available, so that, along with the session, we also get a whole idea of what Viduver is, or what we are doing, the application especially. And then, after that, we'll invite, Dr. Sayugitaji for the session.
+
+25
+00:06:59.280 --> 00:07:03.039
+Suraj Racha: So, very, very quick, brief presentation.
+
+26
+00:07:05.720 --> 00:07:07.719
+Suraj Racha: I hope my screen is visible.
+
+27
+00:07:08.110 --> 00:07:08.740
+Mridul Sharma: That's already.
+
+28
+00:07:08.740 --> 00:07:09.410
+Suraj Racha: So…
+
+29
+00:07:09.740 --> 00:07:28.400
+Suraj Racha: Vedur is actually India's first integrated well-being ecosystem. By integrated, what we mean, we have integrated a lot of various sciences, ranging from Ayurveda, yoga, Dhenacharya, psychology, Indian philosophy. So, all of them combined together forms this platform.
+
+30
+00:07:28.500 --> 00:07:35.819
+Suraj Racha: And, as we all know, as the problems for mental health and well-being increases, the solutions also need to be right.
+
+31
+00:07:36.290 --> 00:07:39.700
+Suraj Racha: That is why, at Vidur, what we do, there are 3…
+
+32
+00:07:39.810 --> 00:07:51.309
+Suraj Racha: three parts to the whole story. Number one is the AI-powered ecosystem, which comes as an application, and I'm glad to say that the application is free for one month.
+
+33
+00:07:51.420 --> 00:07:57.009
+Suraj Racha: For all of us, all of the attendees, so please do go download the application.
+
+34
+00:07:57.040 --> 00:08:16.799
+Suraj Racha: Now, second is ICAS-based training programs, just like the program which we are having now. There are many more lined up in the future, many more already ongoing. And the third is counseling and mentors, because all of us do require a counseling, a mentor to talk to beyond the sessions also, so that is available as well.
+
+35
+00:08:17.350 --> 00:08:41.779
+Suraj Racha: And especially, I'd like to throw some more light on the application. The app is actually reimagining the whole ecosystem of well-being. There's a whole mood tracker that you can visualize how you're doing in daily life. It is not only for tech-heavy people, it's for everyone. Even a simple person who knows to operate the phone can take the benefit of it.
+
+36
+00:08:41.780 --> 00:08:50.319
+Suraj Racha: There are, analysis, there are reports which you can see, self-reflective reports about how I'm doing, what is my current status in life.
+
+37
+00:08:50.860 --> 00:08:55.940
+Suraj Racha: Then there's a chatbot with whom you can talk, you can share, get…
+
+38
+00:08:55.960 --> 00:09:17.579
+Suraj Racha: very definitive answers from the chatbot, and every one of us wants, right? So, a task planner also suggests shriki, Ajapkranayam karna chi, Aja ko Suriname Skar karna chi, you have to do some services. So, what to do, what not to do, is also suggested by the application.
+
+39
+00:09:17.590 --> 00:09:18.630
+Suraj Racha: So…
+
+40
+00:09:19.510 --> 00:09:31.149
+Suraj Racha: With this, I'd also like to hand over to Vidal, but a large conclusion is, do check out the application, do check out the whole list of opportunities available at Vidhur.
+
+41
+00:09:31.390 --> 00:09:33.709
+Suraj Racha: Thank you so much, and over to you, Nathan.
+
+42
+00:09:35.150 --> 00:09:39.160
+Mridul Sharma: Thank you, Suresh, that was wonderful. And
+
+43
+00:09:39.960 --> 00:09:56.160
+Mridul Sharma: All right, everyone, now is the time. It's my privilege to… today to introduce Dr. Sayumita Pilkarnichi, a qualified homeopathic consultant and a certified health coach, whose work has been transforming lives over two decades now.
+
+44
+00:09:56.210 --> 00:10:00.219
+Mridul Sharma: Like, with 20 plus of years of experience as a homeopath health coach.
+
+45
+00:10:00.530 --> 00:10:06.159
+Mridul Sharma: And Dr. Kulkani carved a distinct niche in these areas of weight loss, diabetes.
+
+46
+00:10:06.340 --> 00:10:13.770
+Mridul Sharma: Blood pressure management, not through shortcuts, but through the power of truly personalized, holistic care with medicine-free life.
+
+47
+00:10:14.190 --> 00:10:32.229
+Mridul Sharma: She brings to her practice a rare blend of clinical expertise, compassion and guidance, clarity of a health coach, helping her clients not just to feel better, but to live better. With that, I would like to welcome Dr. Sayyami Daji. Please take over.
+
+48
+00:10:37.160 --> 00:10:39.720
+Dr Sanyogeeta Kulkarni: Thank you. Thank you, Muradalji. Thank you, Suraji.
+
+49
+00:10:41.090 --> 00:10:45.580
+Dr Sanyogeeta Kulkarni: That's… It's a kid.
+
+50
+00:10:46.360 --> 00:10:46.960
+Mridul Sharma: Yes.
+
+51
+00:11:01.310 --> 00:11:02.750
+Mridul Sharma: Yes, yes.
+
+52
+00:11:02.750 --> 00:11:03.330
+Dr Sanyogeeta Kulkarni: Eastern.
+
+53
+00:11:05.320 --> 00:11:12.060
+Dr Sanyogeeta Kulkarni: Yes, welcome everybody for today's session. Food as medicine.
+
+54
+00:11:12.130 --> 00:11:26.959
+Dr Sanyogeeta Kulkarni: session mein hamloh se keng, bhimari kaise ati hai, mimari ka actual reason kya hai, or hum janengai 4K science ke bare mein, hum janing essay 4K barre mein jo humare disease reversal mein mother karta hai.
+
+55
+00:11:26.960 --> 00:11:33.640
+Dr Sanyogeeta Kulkarni: Orham ye bhjanenge kaise hum 4 ka upayok karke medicine free lives jisagte hain.
+
+56
+00:11:34.970 --> 00:11:39.920
+Dr Sanyogeeta Kulkarni: health challenges thein.
+
+57
+00:11:40.530 --> 00:11:48.300
+Dr Sanyogeeta Kulkarni: Sapse bada mira health challenge sa mira migraine. Bohot chota sehi umrese mujahi, migraine jakad liar ta.
+
+58
+00:11:48.520 --> 00:11:55.259
+Dr Sanyogeeta Kulkarni: Painkillers ki ada tho jukiti. Jarurat bhi aur dire dire muja painkillers ki ada thho gai.
+
+59
+00:11:55.830 --> 00:12:07.500
+Dr Sanyogeeta Kulkarni: Like, injpathetic education saalukia, tab muji realize hua. Tab meini jaan lia, ki ye jo mein painkillers itne saloon taari yuna, uski vaja se
+
+60
+00:12:07.500 --> 00:12:16.140
+Dr Sanyogeeta Kulkarni: Mera migrant toh kuch kiwar huay ni, lekin, mere sharir ke under joh bhi vital organs hai, woh diure dire damage honeele legit hai.
+
+61
+00:12:16.810 --> 00:12:28.640
+Dr Sanyogeeta Kulkarni: Usi din se main tanlia, ki auch ke bad mein kabibi painkillers nahi kangi mein gharge meine pure subjutnei bhi painkillers mere saath the meini dasbin mehakt dia.
+
+62
+00:12:29.600 --> 00:12:49.240
+Dr Sanyogeeta Kulkarni: So, it was a life-changing experience, decision mane Rhuliatha. Uske baad homeopathy ke study kart saath, many natural cure, naturopathy, self-healing technique ko seqlia, many unke books padi boharek camps at 10K, aur kudko di hay dhire.
+
+63
+00:12:49.990 --> 00:12:56.790
+Dr Sanyogeeta Kulkarni: Apne lifestyle changes or medicine free, Life Banadia. Mene Kutko
+
+64
+00:12:57.000 --> 00:13:06.300
+Dr Sanyogeeta Kulkarni: Self-healing process se jo itne saloon se mein migrant se jun drahiti. Usko meni, jo mere bachpan kasatita, usko meni.
+
+65
+00:13:06.700 --> 00:13:08.290
+Dr Sanyogeeta Kulkarni: Tata Bhai Bai Kardia.
+
+66
+00:13:09.900 --> 00:13:17.439
+Dr Sanyogeeta Kulkarni: aapko sikhane walihu.
+
+67
+00:13:17.860 --> 00:13:32.169
+Dr Sanyogeeta Kulkarni: It is myself, experience, Jume kudne kudpe anhoki yahua, or uska Rizal payahua hai. Jume mere aju Baju mere aaspaske logon ke upper mupska Rizal payahua hai.
+
+68
+00:13:32.560 --> 00:13:42.000
+Dr Sanyogeeta Kulkarni: Isi lia mein guarantee keysad kait, ki jo bhi aj aap sunenge, or agar aap healthy lifestyle apnate hai, or healthy
+
+69
+00:13:42.110 --> 00:13:49.610
+Dr Sanyogeeta Kulkarni: Food techniques aapna thee hai. Toh aap konce bhi disease ho, konsei bhi medicine kapko chalu hai wo aaph
+
+70
+00:13:49.770 --> 00:13:53.310
+Dr Sanyogeeta Kulkarni: Medicine-free life aapka kutko gift kar sakte hain.
+
+71
+00:13:56.470 --> 00:13:58.870
+Dr Sanyogeeta Kulkarni: Aj agar ham bharat ke baat kare.
+
+72
+00:13:59.320 --> 00:14:03.250
+Dr Sanyogeeta Kulkarni: face karin.
+
+73
+00:14:03.930 --> 00:14:14.439
+Dr Sanyogeeta Kulkarni: Diska Zikar, Hammare Prime Minister GB, both sare speeches mein kar choke hai on hum se appeal karte hai, healthy lifestyle or food habits ko apnani ki.
+
+74
+00:14:14.680 --> 00:14:16.299
+Dr Sanyogeeta Kulkarni: Yes, that is health.
+
+75
+00:14:18.420 --> 00:14:33.369
+Dr Sanyogeeta Kulkarni: COVID ne ha mei sikhai dia hai, ki aapke ap jitna bhi safalta ke peche bahagu, jitna bhi peso ke piche bhagu, lekin, agar aapka suaste nahi hai, toh, ye gadi banglah pesa, ye kuch aapke kaam nahi anne wala.
+
+76
+00:14:33.620 --> 00:14:40.489
+Dr Sanyogeeta Kulkarni: So, ultimately, aapko ant tutak aapka kudsak deni wala toh aapka sharir wo bhi heli.
+
+77
+00:14:42.270 --> 00:14:47.589
+Dr Sanyogeeta Kulkarni: face ka rehe.
+
+78
+00:14:50.290 --> 00:14:53.529
+Dr Sanyogeeta Kulkarni: Yes, ye challenge ham isi li feska reki.
+
+79
+00:14:53.650 --> 00:15:07.929
+Dr Sanyogeeta Kulkarni: Deki, kabi agar aapko na, match sick hai, toh aapka karte koi match teacher ko hire karte hai. Expert jo match mein expert se usko hire karte te hai. Apa agar, ap ko driving sick hai, toh aap driving school join karte ho.
+
+80
+00:15:08.010 --> 00:15:16.349
+Dr Sanyogeeta Kulkarni: Huh? Jobhi aapke gharme agar ko ye driving experts say to uske saath uska support lethe ho, uska guidance lateho, driving sick te ho.
+
+81
+00:15:16.590 --> 00:15:20.670
+Dr Sanyogeeta Kulkarni: health teacher hackya.
+
+82
+00:15:22.760 --> 00:15:27.410
+Dr Sanyogeeta Kulkarni: doctors. Maybe hamm are a doctor, some are a health teacher hai.
+
+83
+00:15:27.830 --> 00:15:31.850
+Dr Sanyogeeta Kulkarni: But… Doctors ko mein Bhagwan mantihu.
+
+84
+00:15:32.310 --> 00:15:45.580
+Dr Sanyogeeta Kulkarni: Actually, doctor ke paj job koi marisata hai, toh wo apna, efforts lagaki wo doctors dek the wo bhmari se kise bahar ata hai. Agar doctor unki madat nahi karte na, toh…
+
+85
+00:15:45.940 --> 00:15:49.719
+Dr Sanyogeeta Kulkarni: Shayad wo insan aap ni jan bhavadi.
+
+86
+00:15:50.300 --> 00:16:05.570
+Dr Sanyogeeta Kulkarni: Isi lei doctors ek bhagwan ka hi kamkarte hai. But mujay bata ye, hum doctor ke paaskate hai, hum doctor ke pas dabb jate hai job. Koi symptoms dicte hai, koi challenge ata hai bori mein.
+
+87
+00:16:07.070 --> 00:16:11.379
+Dr Sanyogeeta Kulkarni: kita padi ti.
+
+88
+00:16:13.440 --> 00:16:26.739
+Dr Sanyogeeta Kulkarni: Whatever doctor doesn't know about nutritional medicine may be killing you by Dr. Ready Strand, jo ekhut MBBSMD doctor hai. Wo aapne kitaab meh batate hai, ki.
+
+89
+00:16:27.590 --> 00:16:40.749
+Dr Sanyogeeta Kulkarni: Che person se bhi essay come doctors hai, jinko, formal training milie hai nutrition ke, matlav. Sohmese che se bhum essay physician seh doctor seh, jo nutrition ke bhare me jante hai.
+
+90
+00:16:41.020 --> 00:16:43.549
+Dr Sanyogeeta Kulkarni: Deke thine type ke doctor sothe hain.
+
+91
+00:16:43.680 --> 00:16:47.109
+Dr Sanyogeeta Kulkarni: First, jinko ye nutrition ka knowledge bilkul bi nahya.
+
+92
+00:16:47.310 --> 00:16:51.989
+Dr Sanyogeeta Kulkarni: Second, jin ko knowledge hai lekinunke past time nahi.
+
+93
+00:16:52.620 --> 00:16:58.050
+Dr Sanyogeeta Kulkarni: Third, I say Dr. Sothe Jinko may Extraordinary Doctors Kaiti Hu.
+
+94
+00:16:58.770 --> 00:17:13.539
+Dr Sanyogeeta Kulkarni: or wo apnek patient ko achise sala det, wo chate hai ki unka jo patient hai bar bar unkepa nahi aay, wo ultimately cure ho ke chalajay.
+
+95
+00:17:15.510 --> 00:17:18.450
+Dr Sanyogeeta Kulkarni: ek.
+
+96
+00:17:18.920 --> 00:17:32.920
+Dr Sanyogeeta Kulkarni: There's something called, like, ADR, adverse drug reaction. Diska matlab hai, agar koi medicine ham khate hai, uska effect hota hai, toh uske saath uska side effect bhi ajatah hai.
+
+97
+00:17:33.270 --> 00:17:44.960
+Dr Sanyogeeta Kulkarni: medical, medical, medical mesikaya jata hai ki, agar aapkoi medicine deto, aur uska side effect nahi, na, toh uska effect bin nahi hai.
+
+98
+00:17:45.680 --> 00:18:02.129
+Dr Sanyogeeta Kulkarni: Isi lime kahiti ho ki medicine lena achibat nahi hai. Jab agar hum medicines lehte hai, medicines lena koi buri, you know? Medicines koi burea nahi hai, but medicines leine ka hai time retail hai. Emergency mein medicines ha me help karte.
+
+99
+00:18:02.440 --> 00:18:18.730
+Dr Sanyogeeta Kulkarni: Kaibar hotay hum medicines bhot sau unta klete hai, ki medicine hum lame samheta klete hai. Agar essa karte hotel medicine hamare sharir mein jake, hamare vital organs ko, kidneys hair, lungs hair, liver hai, usko damage karnehi wala hai.
+
+100
+00:18:19.390 --> 00:18:24.420
+Dr Sanyogeeta Kulkarni: Is si le medicines colambiza mait a clean We'll call Galat hai.
+
+101
+00:18:25.030 --> 00:18:36.640
+Dr Sanyogeeta Kulkarni: Thomas Edison bhot pahi kahataki, future mein, I say Dr. Seh nahi, drugs middle medicine, medicine se nahi, bulki, apne nutritional knowledge seh.
+
+102
+00:18:37.080 --> 00:18:39.529
+Dr Sanyogeeta Kulkarni: Bhimariko jarsi Ukharding.
+
+103
+00:18:41.340 --> 00:18:58.530
+Dr Sanyogeeta Kulkarni: Ayurvedic jo hamara ancient bhartia chiketsa paddati hai, usme bhi kaha ganya hai ki, agar aapka kana galat hai, toh medicine kane ka koi matlabi nahi, or agar aapka kana seh ye na, toh aapko medicine lene ki zarurati nahi.
+
+104
+00:19:01.460 --> 00:19:07.670
+Dr Sanyogeeta Kulkarni: Ki, yay…
+
+105
+00:19:07.920 --> 00:19:32.900
+Dr Sanyogeeta Kulkarni: Jase, obesity e common disease bangay. Ha dusra insaraj o base hai. Deficiency, vitamin deficiencies, mineral skin deficiency, uske wa ja se immunity kam huna, bones kam zo huna. Aj mere past both youngsters ate hai bispachi salke, une back pain ka issue rheta hai, frozen shoulders, yan joint pain ke issues rete hai. Une agar kahun naki sube utke aap thora workout karo aap thora
+
+106
+00:19:32.900 --> 00:19:38.509
+Dr Sanyogeeta Kulkarni: hamsab nahi hota.
+
+107
+00:19:38.850 --> 00:19:49.420
+Dr Sanyogeeta Kulkarni: Ajkal humdekte ki poor mental condition hai, depression hai, or emotional healthi baho disturb ho chuka hai. Baat baat pe chur-shir karna, aggressive hona, huh?
+
+108
+00:19:50.000 --> 00:19:58.069
+Dr Sanyogeeta Kulkarni: Lifestyle disorders, hair JSK, diabetes hai, arthritis, hair, hypertension, ya bahot kam umarah mein bhi hamne ajdekre hai.
+
+109
+00:19:59.890 --> 00:20:09.529
+Dr Sanyogeeta Kulkarni: India made 98 million people were going to suffer bad diabetes 2.
+
+110
+00:20:11.020 --> 00:20:16.350
+Dr Sanyogeeta Kulkarni: 70% urban population hai, jo cholesterol ke issue se safar kariga.
+
+111
+00:20:16.580 --> 00:20:28.839
+Dr Sanyogeeta Kulkarni: J say, bad cholesterol hai, good cholesterol hai. Isse, aj, youngsters bhi boys safyar karte hai. Cholesterol hone kamutlab biaine ki aapko mutapachaye. Patlai insan ko bhi cholesterol high rate ta hai.
+
+112
+00:20:29.240 --> 00:20:37.029
+Dr Sanyogeeta Kulkarni: survey bata tay ki heart attack aj top list pe hoge haplist killer hoge hai cancer toh already topless killer ke list mein hai.
+
+113
+00:20:38.220 --> 00:20:44.280
+Dr Sanyogeeta Kulkarni: PCOD, jiska Nam hamne pele kabhini sunata wo harik parch female ke peche
+
+114
+00:20:44.620 --> 00:20:49.740
+Dr Sanyogeeta Kulkarni: Ek female ko PCO di ka, taklifoti hai PCOD se junzahi hai.
+
+115
+00:20:50.770 --> 00:20:54.929
+Dr Sanyogeeta Kulkarni: Actually, huh?
+
+116
+00:20:55.080 --> 00:21:14.159
+Dr Sanyogeeta Kulkarni: hospital me jaate hamk haine wo menu kar dikta hai. Jisme diabetes hai toh, yay metamorphine liege ye, acidity toh, anti-series DJ, thyroid ki dawahi hai.
+
+117
+00:21:15.640 --> 00:21:19.349
+Dr Sanyogeeta Kulkarni: Toharek disease kelei harik medicine tai hochuki hai.
+
+118
+00:21:19.460 --> 00:21:27.080
+Dr Sanyogeeta Kulkarni: Toh, agar aap ye medicines may depend rang, toh aap lambbe sum meita ke medicine kaake, aap kei vital organs
+
+119
+00:21:27.290 --> 00:21:32.800
+Dr Sanyogeeta Kulkarni: Jaldi damage honey vale hai. Toh, hap kya choose karteho, aapko…
+
+120
+00:21:33.310 --> 00:21:40.690
+Dr Sanyogeeta Kulkarni: Subhai utke medicines leh, ya aapko healthy food ka breakfast lei hai. Yeh decision aapke heart meh hai.
+
+121
+00:21:41.230 --> 00:21:48.289
+Dr Sanyogeeta Kulkarni: medicines kani perti hai.
+
+122
+00:21:49.610 --> 00:21:58.330
+Dr Sanyogeeta Kulkarni: Toh ye decision aap kudi leisakte hai, aapko healthy food habits aapna keh is seh, ish medicine seh, ap sutkara paisakte ho.
+
+123
+00:22:01.120 --> 00:22:08.110
+Dr Sanyogeeta Kulkarni: Kaab bata sakte hai koi ki aj, is planet mein sab se powerful drug kun sa hai.
+
+124
+00:22:12.640 --> 00:22:13.510
+Mridul Sharma: Sitamosis.
+
+125
+00:22:14.570 --> 00:22:16.219
+Dr Sanyogeeta Kulkarni: You can, oh, no.
+
+126
+00:22:17.620 --> 00:22:19.420
+Renuka Bhuta: That's a blowglita.
+
+127
+00:22:19.660 --> 00:22:20.330
+Mridul Sharma: Okay.
+
+128
+00:22:20.500 --> 00:22:23.520
+Mridul Sharma: Paracetamol connection, I don't.
+
+129
+00:22:23.780 --> 00:22:31.439
+Dr Sanyogeeta Kulkarni: Yeah. Yeah. Yes of medicine, aapkase zuba pe aati, na, you know, you just have this on your tip of tongue.
+
+130
+00:22:32.090 --> 00:22:33.470
+Rajeev: Thank you.
+
+131
+00:22:34.400 --> 00:22:41.120
+Dr Sanyogeeta Kulkarni: Yeah. Toh medicine is dunya, mein is planet, mein sabsei powerful medicine agar kuch hai, toh woke.
+
+132
+00:22:42.310 --> 00:22:52.140
+Dr Sanyogeeta Kulkarni: Food. Food is the most powerful drug on this planet. Sapse powerful medicine hai.
+
+133
+00:22:53.130 --> 00:23:03.270
+Dr Sanyogeeta Kulkarni: jarjati hai.
+
+134
+00:23:05.650 --> 00:23:07.060
+Dr Sanyogeeta Kulkarni: Suny, I'll get…
+
+135
+00:23:07.280 --> 00:23:22.880
+Dr Sanyogeeta Kulkarni: Ap food medicine ki tar hai kaogena, toh aapko medicines food kita, plate mein leke kana padiga. Toh ye decision aapka hai, aapko hi tay karna hai ki mujay dawaii kani hai, kane kita, ya fir mujay
+
+136
+00:23:23.360 --> 00:23:25.500
+Dr Sanyogeeta Kulkarni: Kana Kanake Medicine Kitaro.
+
+137
+00:23:30.590 --> 00:23:34.430
+Dr Sanyogeeta Kulkarni: aap sub kana kate.
+
+138
+00:23:42.520 --> 00:23:43.960
+Rajeev: What another D.
+
+139
+00:23:45.070 --> 00:23:47.149
+Rajeev: Yeah. For taste, also.
+
+140
+00:23:47.370 --> 00:23:48.590
+Dr Sanyogeeta Kulkarni: test, right?
+
+141
+00:23:50.770 --> 00:24:03.570
+Dr Sanyogeeta Kulkarni: Yeah. Kafi, yeah, test is the right answer, energy toh bohot ye sahi answer hai. Kafi lap toh, time hoge aa hai, art badge, chalo najteka time hoge nasta karloh.
+
+142
+00:24:03.740 --> 00:24:16.469
+Dr Sanyogeeta Kulkarni: table, dining table ke, upper apna wefors ka packet pada hai. Kalite hai.
+
+143
+00:24:17.000 --> 00:24:32.829
+Dr Sanyogeeta Kulkarni: Toh kane ka, actually, kucha, hame pataine reason ki hum ku kana kate. Ajubaju keloh kana kare, warapa kare, low kana kate. Jese chota bache tana, ko aapne maabapko dekke, aapke bahi bahin ko dekke.
+
+144
+00:24:38.290 --> 00:24:47.530
+Dr Sanyogeeta Kulkarni: But asi pach wajahu kana kate hain ka hai karteta.
+
+145
+00:24:48.130 --> 00:24:58.760
+Dr Sanyogeeta Kulkarni: Jaise aap sub utte ho, koi exercise karta ho ga, koi office chala jata hai, abi bhi aap bet ke muja sundiya toh, that is an activity, aapka brain is mein engage ito, that is an activity.
+
+146
+00:24:59.700 --> 00:25:10.059
+Dr Sanyogeeta Kulkarni: Toh koi bhi activity karne ke liena aapne sharir koapare body ko na energy ki jarura 30 hai. Toh ye energy hamara body kahase jan red karta hai.
+
+147
+00:25:10.730 --> 00:25:16.160
+Dr Sanyogeeta Kulkarni: Tina seiz hai jahasi, hame energy multi. Subse pele ha sleep.
+
+148
+00:25:16.620 --> 00:25:35.090
+Dr Sanyogeeta Kulkarni: Because needin mein agarapne achi ni ni li toh need aisaakuch regeneration hua hai ki aapko energy generate ho gai.
+
+149
+00:25:35.350 --> 00:25:37.039
+Dr Sanyogeeta Kulkarni: Second is oxygen.
+
+150
+00:25:37.270 --> 00:25:52.570
+Dr Sanyogeeta Kulkarni: deep breathing karte ho. Toh, you feel an energetic. Toho, oxygenhe jo aapko energy data hai. And third and most important is food.
+
+151
+00:25:52.960 --> 00:25:56.660
+Dr Sanyogeeta Kulkarni: Furik bohot significant source e energica.
+
+152
+00:25:56.800 --> 00:26:02.199
+Dr Sanyogeeta Kulkarni: Food is equal to energy. Dita hai.
+
+153
+00:26:04.640 --> 00:26:20.639
+Dr Sanyogeeta Kulkarni: Food is an information. Hamare body may trillion sales hai, jo sales ko function karne kelee na, energy ki boh zarura toti hai.
+
+154
+00:26:20.720 --> 00:26:29.660
+Dr Sanyogeeta Kulkarni: Busme se sail upni energy leileta hai.
+
+155
+00:26:30.250 --> 00:26:36.289
+Dr Sanyogeeta Kulkarni: Like in agarap kuch galat kateho, kuch unhealthy karteho. Toho sales ko pata jalta aki.
+
+156
+00:26:36.290 --> 00:26:52.179
+Dr Sanyogeeta Kulkarni: wo kana sales ko message pochata hai, ki bhai ye tune joabhi wa dapa aukhana, toh iski vaja se isko na constipation honey wala. Iske vaja se toh body meina, bloating lahde. Iski vaja se to body meina, iska energy down karade.
+
+157
+00:26:52.180 --> 00:27:11.649
+Dr Sanyogeeta Kulkarni: or usi jaga ke agar pe agar aap apple karteho. Toh wo sales ko information pojati ki bhai, iske sharing me toh bhi energy dalde, ya apple ke vajas is ko energy chai, milli chai. Toh sales ko information po chaani kaam kon karta hai, food karta. Toh, food is just not a…
+
+158
+00:27:11.740 --> 00:27:18.909
+Dr Sanyogeeta Kulkarni: No? Feel our stomach. It is an information. It gives us information. Ki hamare shariko kaaban hai.
+
+159
+00:27:19.610 --> 00:27:33.139
+Dr Sanyogeeta Kulkarni: Hamara body na jab ham peda, we ha mek chode se zygot ka selthe. Multiply hote haute ajem itna bada individual bant choke hai. Mokis smell butte pe. Hamne jo bhi ahta kana kaya usine hum ko banaya hai.
+
+160
+00:27:33.350 --> 00:27:38.849
+Dr Sanyogeeta Kulkarni: You see, Leh, food is an information, it is just not anka sadhan.
+
+161
+00:27:40.340 --> 00:27:44.480
+Dr Sanyogeeta Kulkarni: To pass the reasons.
+
+162
+00:27:44.870 --> 00:27:57.100
+Dr Sanyogeeta Kulkarni: Tohaila toh ham logone deka hai energy. Joh hai food hame energy data hai. Second is recovery. Abi aap shad phone pay side laptop pe muja sunleah hai, toh.
+
+163
+00:27:57.340 --> 00:28:11.630
+Dr Sanyogeeta Kulkarni: 30 time ke baat aapka battery down hujata hai laptop ka, phone ka battery down hujate, toh se aapko charge karna parta hai. Similarly, aapka jo shari hai, itna sara activity karta hai, toh activity ke liye, aapka energy drain hota hai.
+
+164
+00:28:11.990 --> 00:28:18.900
+Dr Sanyogeeta Kulkarni: Togo energy drain hua hua energy recover karne kelei Sharir ko, fur ki aba shakta hoti hain.
+
+165
+00:28:19.320 --> 00:28:24.320
+Dr Sanyogeeta Kulkarni: Din ber activity karte se mein, chota hota wear and tear body mein hota reta hai.
+
+166
+00:28:24.770 --> 00:28:34.550
+Dr Sanyogeeta Kulkarni: Ek sleep keisa madem hai jahapi recovery hoti hai or duslahi agarap heldi fur kate, toho fud bhi hame help karta hai recovery deni kili.
+
+167
+00:28:35.380 --> 00:28:36.750
+Dr Sanyogeeta Kulkarni: Third is growth.
+
+168
+00:28:36.930 --> 00:28:42.639
+Dr Sanyogeeta Kulkarni: Growth. Apkoto ye vishwas hunai chai ki aapke nakun barte hain.
+
+169
+00:28:42.780 --> 00:28:59.100
+Dr Sanyogeeta Kulkarni: nails bharte hai.
+
+170
+00:28:59.120 --> 00:29:10.020
+Dr Sanyogeeta Kulkarni: Toh, growth is an inevitable Hamara, jab tak hum jivi theta tap tak hamare shadir mein growth hoti reti hain.
+
+171
+00:29:10.060 --> 00:29:13.830
+Dr Sanyogeeta Kulkarni: hai.
+
+172
+00:29:14.580 --> 00:29:28.199
+Dr Sanyogeeta Kulkarni: Then fourth is nutrition. Nutrition matla posak tattva. Poshak tattva je seh vitamin or minerals. Fourth se jise seh hamari immunity banti hai, hamara sharir banta hai, takat ati hai.
+
+173
+00:29:28.460 --> 00:29:39.219
+Dr Sanyogeeta Kulkarni: Last is detox. Detox ka matleah hai kachra safkarna. Jase hum gharp mein safai karte hai. Toh ek bahot important element use karteh wohe water.
+
+174
+00:29:39.490 --> 00:29:45.920
+Dr Sanyogeeta Kulkarni: Same vase, sharir ke detox keel, humay water ek element ki bohot zarura 30 hai.
+
+175
+00:29:46.820 --> 00:30:03.570
+Dr Sanyogeeta Kulkarni: Sharir kudba kud aapne aapko detox karta rehta hai. Apna kachra bahar fekta reta hai, lekin kap jab ap usko jo healthy food dengue. Agar aap apple khate ho body usme se jo water content hai, usko use karega, apne aapko detox karne keel lia.
+
+176
+00:30:08.280 --> 00:30:18.259
+Dr Sanyogeeta Kulkarni: aap… Healthy life j sakte ho. Kaisab kana kake, aap ko energy mealsakti hai.
+
+177
+00:30:20.080 --> 00:30:21.810
+Dr Sanyogeeta Kulkarni: I'm waiting for the answer.
+
+178
+00:30:22.170 --> 00:30:22.930
+Mridul Sharma: No.
+
+179
+00:30:23.970 --> 00:30:30.770
+Dr Sanyogeeta Kulkarni: bharvhar ke.
+
+180
+00:30:31.140 --> 00:30:38.809
+Rajeev: Like, matter of product, they have… they do not have any fibers and all.
+
+181
+00:30:39.250 --> 00:30:44.020
+Dr Sanyogeeta Kulkarni: Yeah. But ajamara kana yehi banshu kahai. Hum…
+
+182
+00:30:44.020 --> 00:30:45.280
+Rajeev: salted, sugar.
+
+183
+00:30:45.280 --> 00:30:54.390
+Dr Sanyogeeta Kulkarni: Yeah, salt, sodium, artificial sweeteners. No, hamari energy puri drain hojati hai.
+
+184
+00:30:54.480 --> 00:31:13.109
+Dr Sanyogeeta Kulkarni: agar yeh kana kate hai, agar ha junk food kate, pizza kate burger kate. Jo food hame energy dinacaye, huh? laziness. QSE hota hai, pizza akhmein toh calories boh jada hai, wahapeto, usme toh fat bhi jada hai, huh? Cheese barwar ke dala hualeta hota hai.
+
+185
+00:31:13.110 --> 00:31:23.400
+Dr Sanyogeeta Kulkarni: Like, in wok hane ke baat, kya aapko energetic lakhta hai, kya aapko aapki body light lakhti hai, nahi. Ay sa lakta ki hazakhalia bus abhi mein thora sojata.
+
+186
+00:31:23.520 --> 00:31:25.460
+Dr Sanyogeeta Kulkarni: To laziness ajatahi.
+
+187
+00:31:26.080 --> 00:31:39.979
+Dr Sanyogeeta Kulkarni: Energy drain huti hai. Kyung ki wo pisa ko digest karne ke li, sharir ko extra energy, extra efforts dalne pad rehe. Isi levo energy ultra jo body mein energy hai, usko woke le raha.
+
+188
+00:31:40.240 --> 00:31:53.500
+Dr Sanyogeeta Kulkarni: recovery aiki, toh pain hi aay ga.
+
+189
+00:31:53.650 --> 00:32:09.830
+Dr Sanyogeeta Kulkarni: Joe food humay growth denatur aging mill ray. Joh bimadi aj hum 40s mein dekna chate woh hame 30s mein dhik re. Premature graying of the hair hai, obesity hair. Chote bachonko aj thyroid.
+
+190
+00:32:09.830 --> 00:32:22.550
+Dr Sanyogeeta Kulkarni: cholesterol di crah hai, diabetes ki cases hamare chota bacchumahi agay hai. Toh agar aapka kana galat hai, ap jitna bhi processed food kare, uski vajasi aapka aging buddy.
+
+191
+00:32:23.500 --> 00:32:30.200
+Dr Sanyogeeta Kulkarni: Nutrition. Esa kana kane se aapki deficiency barrehvitamin or mineras ki kamtartha dikre ya.
+
+192
+00:32:30.650 --> 00:32:42.229
+Dr Sanyogeeta Kulkarni: Jo food aapko detox karna chai eta. Apke body mein cleaning process chalu karna chaita wo food ko. Actually, aapke body mein toxins jamakar hai, or laziness.
+
+193
+00:32:42.270 --> 00:32:57.600
+Dr Sanyogeeta Kulkarni: Pain, aging, deficiency, or toxins ki vajase, ajame, disease is hooray hai. Toh aj bhimari hone ka karanhi hamara galat food hai. The bad choice of food is the reason of our disease.
+
+194
+00:32:59.190 --> 00:33:05.400
+Dr Sanyogeeta Kulkarni: Dohan… aka chattu.
+
+195
+00:33:05.960 --> 00:33:19.989
+Dr Sanyogeeta Kulkarni: Jise aapne aapkut gharme kuch kane se paleo, decksame sahi karang harbar aapko mujaya kisi health coach ko pushne ki zarurat nahi. Toh ya pech kamatla be health.
+
+196
+00:33:20.290 --> 00:33:24.310
+Dr Sanyogeeta Kulkarni: Tokaap maji bataasekte haki enka matlab kyahay yahapi.
+
+197
+00:33:25.350 --> 00:33:26.560
+Dr Sanyogeeta Kulkarni: You can gaze…
+
+198
+00:33:27.040 --> 00:33:27.970
+Mridul Sharma: Completion.
+
+199
+00:33:29.160 --> 00:33:31.390
+Dr Sanyogeeta Kulkarni: Yes, right. Nutrients.
+
+200
+00:33:31.540 --> 00:33:32.810
+Mridul Sharma: So, yes.
+
+201
+00:33:32.870 --> 00:33:36.109
+Dr Sanyogeeta Kulkarni: Health is nutrients upon calories.
+
+202
+00:33:36.730 --> 00:33:46.070
+Dr Sanyogeeta Kulkarni: Toh jitna jada nutrients hum tying jittna gada nutritious food hum kayenge, utni hamari health achirage. Example ki lih biscuits.
+
+203
+00:33:46.300 --> 00:34:02.999
+Dr Sanyogeeta Kulkarni: To deki yeks simple sa biscuit hai, nahi is meh kuch cream lagaya hua hai nahi ispei upar wo shakkar dali hu hai. Yek simple bilhul maasum sah dikhne mala biscuit hai. Doh biscuit kao ghe total iske saath aap 98 calories per hour.
+
+204
+00:34:03.300 --> 00:34:11.310
+Dr Sanyogeeta Kulkarni: This is a processed food, iske saath koi bhi nutrients nahi, ye bohot thi nutrients may come hai.
+
+205
+00:34:11.550 --> 00:34:26.050
+Dr Sanyogeeta Kulkarni: Like in isko agar ham compare karte hai, apple ke saath. To apple ke… has the same calories. Egg apple mein 95 calories hai, leikin iska nutrients value bohot high hai, comparatively.
+
+206
+00:34:26.190 --> 00:34:32.640
+Dr Sanyogeeta Kulkarni: Isili, biscuit ke jagap agarap apple juice karteho, to aapko nutrition meltah hai.
+
+207
+00:34:33.480 --> 00:34:42.309
+Dr Sanyogeeta Kulkarni: karte te hai.
+
+208
+00:34:45.000 --> 00:34:55.609
+Dr Sanyogeeta Kulkarni: Apko mein dh, aj mein dh rules batane walihu, jaise ki whole foods, johole food hai, jo unprocessed food hai, jo nature mein pahagaya food hai.
+
+209
+00:34:55.820 --> 00:35:14.969
+Dr Sanyogeeta Kulkarni: The whole food is equal to more nutrients. Ajitna processed food kate hai, jisko jitna aap machine mein banaya hua, usko chemicals dali hui foods kate hai. Usme bhot kam nutrients hothe hai, wo process karne ke procedure mein uske nutrients marjata hai.
+
+210
+00:35:15.230 --> 00:35:21.660
+Dr Sanyogeeta Kulkarni: Easily, you should be very careful by selecting the 4K hum whole food kari ya, processed food kare.
+
+211
+00:35:22.570 --> 00:35:24.059
+Dr Sanyogeeta Kulkarni: Second rule is.
+
+212
+00:35:24.360 --> 00:35:31.460
+Dr Sanyogeeta Kulkarni: Joh 4 khane ke baar mein lambbe samay tak, buh nahi lakhti hai, samajana ki wo food nutritious hai.
+
+213
+00:35:32.780 --> 00:35:45.440
+Dr Sanyogeeta Kulkarni: Or, johurt ke baad humid turan buk lakhti hai, ja se abne doh biskit kaliya. Toh aapko ade gante mein turan buh lakhti hai. Toh aur… or aapko aur kud jang fuhur kane ki ichah hoti hai.
+
+214
+00:35:46.080 --> 00:35:55.460
+Dr Sanyogeeta Kulkarni: Toh usme bhot kam nutrients hotahan, because hamari jo body hai, that is craving for nutrition and not for calories.
+
+215
+00:35:57.780 --> 00:36:10.310
+Dr Sanyogeeta Kulkarni: actually hamari body bani hai whole food hane ke liye. Hamek ya kana chai, hame tomato kani chai, you know? Tomato, 100 grams, tomato mein 18…
+
+216
+00:36:10.440 --> 00:36:16.059
+Dr Sanyogeeta Kulkarni: calories hotte hai. Lekin ham sidea tomato tori ka te, ham to ketchup kat hai.
+
+217
+00:36:16.410 --> 00:36:26.040
+Dr Sanyogeeta Kulkarni: ye jo so gram te matur ka aap.
+
+218
+00:36:26.090 --> 00:36:40.230
+Dr Sanyogeeta Kulkarni: Ketchup banate ho, toheki isk calories kitna barjata hai, 112 calories. Juhame atra calorie ek tomata mein sogram tamata mein mille wala tha, huham ekso bara calories consumed karah hai.
+
+219
+00:36:41.630 --> 00:36:48.330
+Dr Sanyogeeta Kulkarni: Hamara body actually banah hai potato karne kelee. Likin hami se process karke potato chips karte hai.
+
+220
+00:36:48.380 --> 00:37:05.239
+Dr Sanyogeeta Kulkarni: For 100 gram potatoes mein 77 calories hota hai. Si, potato koi, no, kuch galat food nahi, humbholte aki potato nahi kana chai usme obesity ajata usme bhsar calbohydrate hai. Rekind nahi agar ham us
+
+221
+00:37:05.240 --> 00:37:09.260
+Dr Sanyogeeta Kulkarni: Without any process.
+
+222
+00:37:13.670 --> 00:37:22.089
+Dr Sanyogeeta Kulkarni: kitne sari calories hai, 536 calories hai, 536.
+
+223
+00:37:22.760 --> 00:37:42.760
+Dr Sanyogeeta Kulkarni: Yeah, itne calories hai jitne hum ek heavy mealte hai. Lekin kya hum ye chips, hamara lunch ke time pekhate hai, kya hum iska dinner karte nahi. Yehu hum hamare snack ke time pehate hai. Hame ye toh chai pine ke saath kuch kanshikani ki talabotia isili ha mei kate.
+
+224
+00:37:45.460 --> 00:37:56.290
+Dr Sanyogeeta Kulkarni: Sogram potato chips of kate hai, to aapka sodium level bhi kitna barja ta hai, because it may artificial sodium dalah hua hota hai, jiske vaja se apna…
+
+225
+00:37:56.580 --> 00:37:59.149
+Dr Sanyogeeta Kulkarni: Brain B damage was at the…
+
+226
+00:38:00.830 --> 00:38:05.150
+Dr Sanyogeeta Kulkarni: You're supposed to eat vegetables, like in Raj Bukal, but check vegetables karte hain.
+
+227
+00:38:05.340 --> 00:38:11.880
+Dr Sanyogeeta Kulkarni: Vegetables khate. Wo kate hain.
+
+228
+00:38:12.060 --> 00:38:25.169
+Dr Sanyogeeta Kulkarni: 100g vegetables aap kao geta aapko 65 calories milti hai, uske sap boh saar nutrition bhi miltah hai. Dekinjab aap egg slice pizza ka cow gheto, egg slice pizza made 277 calories hoti hai.
+
+229
+00:38:25.590 --> 00:38:32.459
+Dr Sanyogeeta Kulkarni: 277 calories, egg wo triangle slice mein hotah hai. Nek in hamek pura pizza khate hai toh.
+
+230
+00:38:32.630 --> 00:38:40.170
+Dr Sanyogeeta Kulkarni: Jit ni hamari calories ki need hai, dinner yafir lunch ki, usek kehi jada calories hum kare hai.
+
+231
+00:38:40.310 --> 00:38:48.650
+Dr Sanyogeeta Kulkarni: Toh ye kane ke baat, aapko energy kahase millegi, ulta aapki energy drain hi ghone wali hai, aur aapko bhimarihi anew wali hai.
+
+232
+00:38:50.460 --> 00:39:00.519
+Dr Sanyogeeta Kulkarni: Natural sugar jo hamare kudra ne hame di, wo fruits hai, like in ham aj, processed sweeteners, kare, cakes, pastries, chocolates kare.
+
+233
+00:39:03.360 --> 00:39:11.509
+Dr Sanyogeeta Kulkarni: How many natural drinksilimbu Sharbat, kokam sharbat, detox water, pinach yeh bat, ajam, teen mein pack ki away.
+
+234
+00:39:11.770 --> 00:39:14.970
+Dr Sanyogeeta Kulkarni: Lemonades, yeah, a few soft drinks later.
+
+235
+00:39:16.210 --> 00:39:23.279
+Dr Sanyogeeta Kulkarni: Healthy fats ke lehame nuts or seeds le niche processed butter or geekhare.
+
+236
+00:39:24.650 --> 00:39:33.240
+Dr Sanyogeeta Kulkarni: We are supposed to eat cereals or pulses, like in hamuse bhi process karke nachos ye wah firstara khate hai. This ke vaja se ha may…
+
+237
+00:39:33.790 --> 00:39:36.540
+Dr Sanyogeeta Kulkarni: Puri energy drain yuti here.
+
+238
+00:39:38.550 --> 00:39:41.820
+Dr Sanyogeeta Kulkarni: Hamare and Sisters.
+
+239
+00:39:42.010 --> 00:39:44.810
+Dr Sanyogeeta Kulkarni: wokabihi une process fur nahi kaya.
+
+240
+00:39:44.930 --> 00:39:54.800
+Dr Sanyogeeta Kulkarni: wo apna kanakut ugate thee, wo puri tara se vegetables or fruit ke upper depende. Isilie, unke semapeh bimari bahot hi kamti.
+
+241
+00:40:01.030 --> 00:40:06.999
+Dr Sanyogeeta Kulkarni: apne kuch kaya hai, aur adek juntemi aapko wapus book lagi hai.
+
+242
+00:40:07.590 --> 00:40:13.190
+Dr Sanyogeeta Kulkarni: Most of the people experience this.
+
+243
+00:40:13.810 --> 00:40:21.300
+Dr Sanyogeeta Kulkarni: Esa keu hotah hai because, remember, aapka jo body banana kuse bhuk lakhti hai nutrition ki, nutrients ki.
+
+244
+00:40:21.550 --> 00:40:30.990
+Dr Sanyogeeta Kulkarni: Agar aap nutrients nahi daloge body mein, toho aapko cal calories y dalogi, toh aapko bar bar buh lagi gi, or cravingsapki bharti jayagi.
+
+245
+00:40:35.960 --> 00:40:47.529
+Dr Sanyogeeta Kulkarni: Toh sabse jada nutrients kis food mein available hai. Kon sa aisa food hai, jahapi hamlock bhot saara nutrients pahate hai. Go hai vegetables, ya rangi bhi rangi sabzia.
+
+246
+00:40:49.850 --> 00:40:58.189
+Dr Sanyogeeta Kulkarni: Is me… see, vegetables mein bohot saha, fiber hota hai, vitamins hot hai, minerals hot hai, phytonutrients, chlorophyll.
+
+247
+00:40:58.290 --> 00:41:10.879
+Dr Sanyogeeta Kulkarni: Polyphenol or anti-cancerous agent hotay hai. Fiber ki baat kar hai, toh fiber e carbohydrate hai. Joh hamare sharir mein, bilkul digest nahi hota, bilkul kisi aur is me convert nahi hota.
+
+248
+00:41:10.880 --> 00:41:19.859
+Dr Sanyogeeta Kulkarni: Fiber SAK essay hamare sharir me jata hai, or wo hamare gut ko saf karta hai, aur ganda gi ko bahar fek de tahin.
+
+249
+00:41:20.980 --> 00:41:36.290
+Dr Sanyogeeta Kulkarni: Vitamins, joh hame vegetables mein bharpur matrami milt hai, ja se vitamin A hai, vitamin B hai. Basekh vitamin D humay vegetables hai nahi milt hai baki saareh, vitamins toh vegetables seh hai milt hai hai. Diski vaja se ha hamari immunity barjati hai.
+
+250
+00:41:36.360 --> 00:41:46.690
+Dr Sanyogeeta Kulkarni: adiq matrame deti hai.
+
+251
+00:41:47.800 --> 00:42:07.770
+Dr Sanyogeeta Kulkarni: Phytonutrients johe, woke, you know, anti-aging property hai is meh, jo hamare aging ko, blocker detergence hota hai, vegetable mein uski wa ja se blood purify hojata hai, oxygen level blood ka barjata hai.
+
+252
+00:42:08.810 --> 00:42:19.260
+Dr Sanyogeeta Kulkarni: Polyphenols, like anti-cancerous, chemical hai, fruit, vegetables mein, jo cancer caseath fight karta hai, or antioxidant bada dita hai.
+
+253
+00:42:19.430 --> 00:42:29.309
+Dr Sanyogeeta Kulkarni: Anti-cancerous agents rahe hai, vegetables mein, jo… tumor banana ke, jo tendency raiti hai cancer mein, usay kamkarta hai.
+
+254
+00:42:30.300 --> 00:42:36.959
+Dr Sanyogeeta Kulkarni: Toh isilehame vegetable sapne root ke diet mein seasonal vegetable shamir karna bah, zaruri hai.
+
+255
+00:42:38.050 --> 00:42:48.770
+Dr Sanyogeeta Kulkarni: nutrition score inka booth high hai. Toh isi aap apne daily diet mein shamil kar saktiho burupuli hai, cauliflower hai.
+
+256
+00:42:51.960 --> 00:43:08.000
+Dr Sanyogeeta Kulkarni: Jeseh broccoli hai, cauliflower hay, cruciferous vegetables hai, joking cancer, anti-cancerous properties meh higher heat hai. Spinach hai, they say all green leafy vegetables, cucumber, French beans, capsicum, onion, tomato, beans, lentils, beetroot.
+
+257
+00:43:08.250 --> 00:43:22.130
+Dr Sanyogeeta Kulkarni: Beet, carrot, jo, vitamins or minerals me high, hot day hai. Pumpkin, sweet potato, then sia seh, flex seed, sunflower seeds, yes, sear se jo, healthy fats me high, hot day hai.
+
+258
+00:43:22.450 --> 00:43:41.170
+Dr Sanyogeeta Kulkarni: walnut, almonds, figs, orange jo, vitamin C may hai, uta hai, papaya, johi, vitamin A may hai, hey, pineapple, vitamin C, again, apple, banana, coconut, or spices, just say turmeric, johi, curcumin, usme present, hey, joho humay, anti-inflammatory, age…
+
+259
+00:43:41.630 --> 00:43:42.919
+Dr Sanyogeeta Kulkarni: Help karta hai.
+
+260
+00:43:43.960 --> 00:43:58.659
+Dr Sanyogeeta Kulkarni: There are sah… Se sah tari ke seh ham vegetables ko hapne diet mein shamil kar sakte hai. Vegetables khane ko bawat sare logong ko atchani lakhta hai, khas karke bachonko ki keise unko hum vegetables day sakte hain.
+
+261
+00:43:58.710 --> 00:44:05.560
+Dr Sanyogeeta Kulkarni: Like, in my ajapko eksaat seh, 30 ke bataungi ki jaise hum vegetable aapne daite mein shamil kar sakte hain.
+
+262
+00:44:06.530 --> 00:44:10.099
+Dr Sanyogeeta Kulkarni: Subse peela or sabse Bhatarin vehe salon.
+
+263
+00:44:10.300 --> 00:44:27.989
+Dr Sanyogeeta Kulkarni: Isme, no, ye raw salad kamlog prefer karmnatcha yeh, because jadata nutrients isme content rathe hai. Isme pakane ki jauroatne hai, agar jittna bhi humes steam curay boil, kare to rahoda isma nutrients, nika jaate hai.
+
+264
+00:44:28.380 --> 00:44:46.410
+Dr Sanyogeeta Kulkarni: Agar aap raw nahi kha saute ho, toh, you can steam it and then have it. Boiling or steaming ke, compare karenge to boiling mein, agar boil karteho vegetable, toh usmein jo bhi water-soluble vitamins hain, wo sub nickel jate hain. The better option is to steam the vegetables and have it.
+
+265
+00:44:47.640 --> 00:44:50.480
+Dr Sanyogeeta Kulkarni: Tisra hai saute karna, roast karna.
+
+266
+00:44:51.120 --> 00:44:56.790
+Dr Sanyogeeta Kulkarni: So, that is also what, the easy or testy, option here.
+
+267
+00:44:56.940 --> 00:45:10.709
+Dr Sanyogeeta Kulkarni: Vegetable juice. Yes, sabseh bahtarin tari ka hai, agar aapke bache vegetables nahi kare, sabzia nahi kare. Toh aap sabzi unka juice ni kalke unko de sakte, for example, ABC juice mein beat.
+
+268
+00:45:10.800 --> 00:45:26.910
+Dr Sanyogeeta Kulkarni: Carrot or apple hai. Toh, bee agar ha me aisak hana achanni lakta, tohame seh juice ke formal leisak teh ye actually juice bohot testibi lakta hai, or yeh bahot nutritious hai, aapka ion level is seh barjata hai. Bache toh bohot shock secate hai.
+
+269
+00:45:27.430 --> 00:45:42.430
+Dr Sanyogeeta Kulkarni: agar is mein aapko lakhta ki fiber, some have that question kih juice latte to fiber content come hojata. Toh, you cannot, directly isko leisakti, aapko isko channe ki zarotne ya, toh aapko fiber bise available hojayaga.
+
+270
+00:45:44.620 --> 00:45:56.300
+Dr Sanyogeeta Kulkarni: Toh, vegetables, toh batharin food hai, powerful food hai, lekin usted bi agar kuch powerful or healthy as is planet mein hai. Toh wohe green lefi vegetables.
+
+271
+00:45:56.770 --> 00:45:57.540
+Dr Sanyogeeta Kulkarni: Huh?
+
+272
+00:45:57.970 --> 00:46:05.310
+Dr Sanyogeeta Kulkarni: See, green is the color of healing. Jitna bhi green aap aapke diet mein shamil karaoke na, utna aapko healing melega.
+
+273
+00:46:07.760 --> 00:46:18.460
+Dr Sanyogeeta Kulkarni: leafy vegetables, may vegetable jaceki pala ke joji bohot common hai.
+
+274
+00:46:18.670 --> 00:46:35.300
+Dr Sanyogeeta Kulkarni: Coriander leaves, mint leaves pudina, beetroot leaves bhi kasakte hai, methi fenugreek leaves, amar najisko ham tan li bhi vulte hai, dil leaves Shapu, this arbi jo pat, pat kya vulturesko.
+
+275
+00:46:36.090 --> 00:46:38.300
+Dr Sanyogeeta Kulkarni: Whativa natin ang RB…
+
+276
+00:46:38.600 --> 00:46:46.490
+Dr Sanyogeeta Kulkarni: Then, sarsoki bhaji hai. Ikne sareh, these are the common green leafy vegetables jo aap aapke dait mein shamil kar sakteho.
+
+277
+00:46:50.610 --> 00:47:05.469
+Dr Sanyogeeta Kulkarni: Ek survey kyata, usme pata essay conclusion mein aake survey baki. Agar aap grains or beans aapke diet mein nahi shamil kar yuna, toh, it is equivalent to smoking or radiation. Matlav, agar grains
+
+278
+00:47:06.210 --> 00:47:10.739
+Dr Sanyogeeta Kulkarni: Leafy vegetables aap aapke diet mein shamil karte ho, to aapko.
+
+279
+00:47:15.390 --> 00:47:24.259
+Dr Sanyogeeta Kulkarni: Radiation or smoking, Bajobi, no, symptoms melte hab wo aapko nahi melenge wo aapke keyword hojayenge.
+
+280
+00:47:27.770 --> 00:47:33.310
+Dr Sanyogeeta Kulkarni: See, power of greens. Give green leafy vegetables ha mei aapne diet mein shamil karna chai.
+
+281
+00:47:33.310 --> 00:47:52.999
+Dr Sanyogeeta Kulkarni: Because green leafy vegetables, aapko metabolism ko bada det, aapko jo bhi metabolic disorders hai, jo bhi lifestyle diseases hai diabetes hai, thyroid hai, usme bohot help karte hai. Isme fiber hone ke karan, wo constipation mein aapki bahot madhad karte, constipation ko relieu karne mein aapki madat karte hai.
+
+282
+00:47:53.000 --> 00:47:59.650
+Dr Sanyogeeta Kulkarni: Dagat health ko sudar te hain. Minerals or vitamin deficiency may green leafy vegetables bohot kam ke hai.
+
+283
+00:48:00.070 --> 00:48:09.519
+Dr Sanyogeeta Kulkarni: Poor eyesight may… actually, is mein bohot sare chlorophyll hone kehone keja se hai ice ke disorder mein bohot helpful hote hai.
+
+284
+00:48:10.870 --> 00:48:25.199
+Dr Sanyogeeta Kulkarni: Early aging ko ye prevent karte hai, apne immunity badaani mein madhat karte hai. Blood clotting is seh barjata hai. Bones ki kamsari, minras mein high honee ki vaja se bones ko takkatwar banana dete hai, bones ki kamsari.
+
+285
+00:48:25.780 --> 00:48:32.449
+Dr Sanyogeeta Kulkarni: Kam hojati hai. Heart disease or high cholesterol may be green leafy vegetables, bohoti healthful hai.
+
+286
+00:48:33.530 --> 00:48:47.510
+Dr Sanyogeeta Kulkarni: Next tata hai circadian rhythm. Circadian rhythm kya hai. Amare body ka cycle hai, jo universe ke saath, joh bhi sunset or sun… rise or sunset.
+
+287
+00:48:47.510 --> 00:48:51.210
+Dr Sanyogeeta Kulkarni: hoga hai.
+
+288
+00:48:51.210 --> 00:49:06.549
+Dr Sanyogeeta Kulkarni: Ki agarap sunset ko saat koi hamare… job sunset hota natap hamare body make kay sare hormones tayar hotte hai, aur kai sare hormones kam hojate hai. Aur job sunrise hota hai, tabi bhi koi hormones barjaate kahi hormones kam hojate hai.
+
+289
+00:49:06.550 --> 00:49:12.469
+Dr Sanyogeeta Kulkarni: To actually, Hamara jo, dincharia hai nao humay sunrise or sunset ki, around…
+
+290
+00:49:12.720 --> 00:49:26.449
+Dr Sanyogeeta Kulkarni: evening mein humbahot energetic banjata hai, hamarat din radko chali hojata hai, hamari name kam hochuki hai, because of these lights and exposure to phone.
+
+291
+00:49:28.360 --> 00:49:43.479
+Dr Sanyogeeta Kulkarni: Toh, hamara jo body cycle hai jo hamari din charya hai. Hame sunke cycle ke saath coordinate kani chai hai. Hame agar kana kana hai tohame woh dopeh me bara bhajay jahapi sunki thakat high hoti hai.
+
+292
+00:49:43.480 --> 00:50:00.549
+Dr Sanyogeeta Kulkarni: Usi tempeh hamari jatar agni bhi bohot utteji thoti hai. Oohi tempeh agar agar aapko heavy lunch karna hai karste hai, toho digestion process easy ho jata hai. Agar shyam ko aap heavy lunch, heavy dinner latte hai. Toh aapko itna digestion
+
+293
+00:50:00.980 --> 00:50:03.360
+Dr Sanyogeeta Kulkarni: process.
+
+294
+00:50:04.310 --> 00:50:10.490
+Dr Sanyogeeta Kulkarni: karna cayi.
+
+295
+00:50:15.640 --> 00:50:16.810
+Dr Sanyogeeta Kulkarni: That's it.
+
+296
+00:50:17.070 --> 00:50:19.750
+Dr Sanyogeeta Kulkarni: Agar kisi ko, coach Koshyanse ito.
+
+297
+00:50:30.220 --> 00:50:36.569
+Rajeev: Including, I'm Raji. So, my doubt is…
+
+298
+00:50:36.810 --> 00:50:47.829
+Rajeev: I always suffer from, like, constipation, and I don't have any… much of fiber things in my food, because hostile foods like that.
+
+299
+00:50:47.970 --> 00:51:00.500
+Rajeev: And, I wanted to supplement, like, fibers, which should, be fully organic, if you have any suggestions, or what should I do, like, to prevent such things.
+
+300
+00:51:02.260 --> 00:51:11.909
+Dr Sanyogeeta Kulkarni: Yes, Rajuji, apne aapka constipation ka problem bata ya hai, aurap neheight batayak ya fiber ke supplements bhi layer hai, right?
+
+301
+00:51:12.460 --> 00:51:16.059
+Rajeev: My lay me down, I'm drinking too.
+
+302
+00:51:16.790 --> 00:51:29.770
+Dr Sanyogeeta Kulkarni: Aha. Toh, may aapko ek suggestion dungi ki agar jitna naturally aapko, fiber milliga, vegetable seh, fruit se, huh aapke li acha regga, rather than going for supplements.
+
+303
+00:51:30.950 --> 00:51:32.120
+Dr Sanyogeeta Kulkarni: Or,
+
+304
+00:51:32.120 --> 00:51:34.050
+Rajeev: Like, natural supplements.
+
+305
+00:51:36.980 --> 00:51:38.440
+Rajeev: Like, flex.
+
+306
+00:51:38.880 --> 00:51:40.260
+Rajeev: That's age.
+
+307
+00:51:40.390 --> 00:51:43.089
+Rajeev: Like, flat seed, equipment.
+
+308
+00:51:43.730 --> 00:51:51.700
+Dr Sanyogeeta Kulkarni: Yeah, yeah, toh, agarap, raw flax seeds layer ho, usem medicine banaya, flax seeds, I see consume kanai.
+
+309
+00:51:52.740 --> 00:51:57.080
+Rajeev: My source routing, they say has called root name. Oh.
+
+310
+00:51:57.650 --> 00:52:02.090
+Rajeev: This typekame supplement law.
+
+311
+00:52:03.170 --> 00:52:27.909
+Dr Sanyogeeta Kulkarni: So, better you up, sir aap pele, vegetables ka jise meni bata yaki agar rap aapke diet mein, salars ko y shamil kar sakte ho. Toh, start your lunch with having one bowl of salar, and then you can have your lunch properly. Toh agar aap isse start kar sakte ho, toh, you know, you can see the changes, isse harak parta hai, ka. And, you should check out your water intake
+
+312
+00:52:27.910 --> 00:52:28.610
+Dr Sanyogeeta Kulkarni: also.
+
+313
+00:52:28.610 --> 00:52:41.580
+Dr Sanyogeeta Kulkarni: Ki aapdeen mer mein kitna panni periodo, because agar aap pani kam periodo jittna bhi fiber aap khaoge, agar usko pani nahi mildo fiber wahi pe atak jagar bahar nikal nika, madla fir wah, it will help in constipation only.
+
+314
+00:52:41.980 --> 00:52:47.449
+Dr Sanyogeeta Kulkarni: Toh ekto aapka water intake hai or aapka vegetables kitna bhap consume karte ho.
+
+315
+00:52:47.630 --> 00:52:57.429
+Dr Sanyogeeta Kulkarni: Uska aapko quantity badana padega. Rather than going for supplements, you better try natural things pale. Agar wo bhi nahi kaam kare, then you can go for natural supplements.
+
+316
+00:52:59.600 --> 00:53:01.949
+Rajeev: Also, I'm taking TSH sales.
+
+317
+00:53:03.450 --> 00:53:17.319
+Dr Sanyogeeta Kulkarni: Yeah, chia seeds bhi, but what is your, like, aapkit na vegetables karteho? Agara wo sub nahi kario aur kali chia seeds of flaxse seraito, you know, everything should be there in your diet. It should be a balanced diet.
+
+318
+00:53:18.320 --> 00:53:25.330
+Rajeev: I'll still put those… look… like, saladi hot time, mostly.
+
+319
+00:53:25.620 --> 00:53:26.500
+Dr Sanyogeeta Kulkarni: Okay.
+
+320
+00:53:31.030 --> 00:53:48.940
+Dr Sanyogeeta Kulkarni: Yes sir, you can, just increase your salar ka intake, or aap ye green juice bh, try kar sakteho with fiber intake, aap usko chaan ke matriji jo bhi aap jaise palak hai, then, ya firs dhaniyakur Korea, coriander and podinaka juice hai.
+
+321
+00:53:49.280 --> 00:53:58.450
+Dr Sanyogeeta Kulkarni: se aapko boh saara fiber bhi miliga.
+
+322
+00:53:59.280 --> 00:54:14.300
+Rajeev: Yes. Or, other than, like, other, like, indigestions and all.
+
+323
+00:54:15.350 --> 00:54:18.479
+Dr Sanyogeeta Kulkarni: Yeah, jabam raw, 4 karte hain.
+
+324
+00:54:18.660 --> 00:54:32.030
+Dr Sanyogeeta Kulkarni: Toh, actually, uskuna ekan tarika hot tahi, raw fur ko humay bahot ba chabana per ta hai. You know, you can't just cook fur ke sa hai ham logo ghaimi chabake nikalge tohi chalta hai, but raw…
+
+325
+00:54:32.210 --> 00:54:39.020
+Dr Sanyogeeta Kulkarni: salars khate, sabzia khate tohu o properly chabana chayetaki wo digestion mein easy ho ja.
+
+326
+00:54:39.140 --> 00:54:45.099
+Dr Sanyogeeta Kulkarni: Agar rock honey mein aapko taklif horye rock honey seapko blotting hora hai, toh, you can go for steam vegetables.
+
+327
+00:54:45.620 --> 00:54:51.900
+Dr Sanyogeeta Kulkarni: Boil nahi karna persusko steam karke kana, toh, that will help you in digestion also, ako bloating magara bin nahi hogi fe.
+
+328
+00:54:54.770 --> 00:55:02.219
+Rajeev: Nick mentioned kyata migraine, migraine, mention kyata. So, which food, will help to you?
+
+329
+00:55:02.770 --> 00:55:04.370
+Rajeev: Which type of code?
+
+330
+00:55:04.900 --> 00:55:27.789
+Dr Sanyogeeta Kulkarni: Migraine karina, sir, actually, migraine is a, like, it's a condition hai, jahapi agar aapk discipline nahi ho. Aapke kane kar time agar barabar nahi kabi aaph kana kare ho, lunchkip kia kana aap breakfast kit kiya, direct lunch lia yaphir aapoora din kuch kahini reho kuchay sa junk food ate jake karyoto. It also triggers migraine.
+
+331
+00:55:28.030 --> 00:55:31.829
+Dr Sanyogeeta Kulkarni: Agar aap bahot processed food kare.
+
+332
+00:55:32.580 --> 00:55:47.100
+Dr Sanyogeeta Kulkarni: Again, agaraphole food nahi cardio, fiber intake aapka kam hai. Constipation is also one of the reasons for migraine. Agar aapka gut health thatchani, you na, toh migraine aapko tigar hoi jata hai.
+
+333
+00:55:48.130 --> 00:56:05.949
+Dr Sanyogeeta Kulkarni: So, basically, migrant ka, tikarne ka tari ka yeua, aka din bohot plan hona chaye, aapka kana discipline hona chai aapka water intake, kitna hai uspe hamka watch rakna hai, or wholesome fibrous fur ka intake boho zaruri hai.
+
+334
+00:56:11.210 --> 00:56:14.000
+Mridul Sharma: TK, is there any other questions to anyone?
+
+335
+00:56:14.500 --> 00:56:16.359
+laju: I have a question.
+
+336
+00:56:16.360 --> 00:56:16.990
+Mridul Sharma: Yes, please.
+
+337
+00:56:17.870 --> 00:56:34.089
+laju: Ma'am, muche Pushna taki abi bohotsri India, mein. Toh humloise koa kya cheese kar sakte, ja konse fruits ya vegetables kaha sakte, je seh dehydration, ya sunstroke, JC bhimary naho.
+
+338
+00:56:35.120 --> 00:56:41.620
+Dr Sanyogeeta Kulkarni: Yeah. You have to increase your water intake.
+
+339
+00:56:41.620 --> 00:57:03.749
+Dr Sanyogeeta Kulkarni: Humlog detox water bhi leisakte hai detox water e kaise sa pani hai, jahapi rad ko ham log ek bottle meini 1 liter water refurus may kakri katkarke, then limbu, akhan limbus ka slice banak, dochaar po dine ke pate rahke wo water ko ham log rad baare se dakke ragdate. It should be a glass water, not a plastic bottle.
+
+340
+00:57:03.750 --> 00:57:14.360
+Dr Sanyogeeta Kulkarni: Tohoek detox water banjata hai, and it gives you bhot saara aapko hydration provide karta hai, wo pani aap the next day, din bar pi sakte ho, toh aaph.
+
+341
+00:57:14.360 --> 00:57:15.839
+Rajeev: Only type of thing.
+
+342
+00:57:16.120 --> 00:57:16.870
+Dr Sanyogeeta Kulkarni: Yep.
+
+343
+00:57:17.010 --> 00:57:19.320
+Rajeev: Gandhi… Like, who…
+
+344
+00:57:19.320 --> 00:57:29.040
+Dr Sanyogeeta Kulkarni: It's not kanji, but ferment thora hotai, kanji jaisa itna ferment kanji ko, shy dam log charpaz din rakte hain, auru seh duhme rakna pratay.
+
+345
+00:57:29.370 --> 00:57:41.740
+Dr Sanyogeeta Kulkarni: So, this is basically a detox water. Toh, yeh humay bot, hydration deta hai, then you can use, sabza se jo tandyak deti hai. Then you can use a food like naachni hai, ragi.
+
+346
+00:57:42.080 --> 00:57:47.950
+Dr Sanyogeeta Kulkarni: And just avoid koi bhi processed food, talagwa cheese is garbi mehana, a word kiji.
+
+347
+00:57:48.520 --> 00:58:02.680
+Dr Sanyogeeta Kulkarni: Fruits and vegetables johe. Bosare fruit jaise, watermelon, musk, melamjit hai bhi, watery foods, fruits available hai. Or, de ko, nature nahi, summer season may watery foods ko available karta hai nature.
+
+348
+00:58:02.750 --> 00:58:09.249
+Dr Sanyogeeta Kulkarni: Toh jo bhi seasonal fruits or vegetables ham log use karang geto ho season ka hai koita klif nahi yogi.
+
+349
+00:58:13.530 --> 00:58:15.789
+Dr Sanyogeeta Kulkarni: Is that, answers your question?
+
+350
+00:58:16.980 --> 00:58:18.500
+laju: Yes, ma'am, thank you.
+
+351
+00:58:19.610 --> 00:58:24.079
+Mridul Sharma: So, there is one other question in the chat by Prankatervarji.
+
+352
+00:58:24.220 --> 00:58:33.769
+Mridul Sharma: She says, if my diet is less and fixed, and fixed time, but my body weight is increasing a lot, what could be the possibilities?
+
+353
+00:58:35.590 --> 00:58:41.700
+Dr Sanyogeeta Kulkarni: Okay, diet less hai, matlab aapka metabolism bhi slow hoga.
+
+354
+00:58:44.380 --> 00:58:51.220
+Dr Sanyogeeta Kulkarni: So, you have… do you have any issues? Agar aapka body wet buddy, toh aapko baki kuch complaints haika?
+
+355
+00:58:52.050 --> 00:58:56.350
+Dr Sanyogeeta Kulkarni: Now, upon only this thing, I can't tell you, ki QSE ho, na?
+
+356
+00:58:56.870 --> 00:58:59.100
+Dr Sanyogeeta Kulkarni: This is a very personal question.
+
+357
+00:58:59.750 --> 00:59:17.690
+Priyanka Talwar: Sure, okay. So, this is my question. Yes. So, the issue which I am facing would be, I got my blood test, all are normal. I do not have any thing up or down, but normally I got this vitamin D, generally in Bombay, I don't come right there.
+
+358
+00:59:17.860 --> 00:59:22.240
+Priyanka Talwar: No issues. And if you're having any…
+
+359
+00:59:22.320 --> 00:59:26.289
+Priyanka Talwar: 6 sides, right? Like, I eat two separate in each meal.
+
+360
+00:59:26.330 --> 00:59:40.519
+Priyanka Talwar: Great, and just say, you told the timings, be 12 PM time. I may start at 12, so I eat 12… 7.30 night time, so I… during that time.
+
+361
+00:59:40.520 --> 00:59:48.680
+Priyanka Talwar: And let's fix, like, two chapatis, if I'm taking rice, so I skip chapati. Like, ushka promotion, it is sin, every time.
+
+362
+00:59:48.810 --> 00:59:51.859
+Priyanka Talwar: So, still, my body weight is increasing a lot, like…
+
+363
+00:59:52.120 --> 00:59:55.210
+Priyanka Talwar: 3-4 months, like, I would say November, say.
+
+364
+00:59:55.320 --> 00:59:59.520
+Priyanka Talwar: 6 months may 10 kgs, 12 kgs per gallon itself.
+
+365
+00:59:59.730 --> 01:00:03.760
+Priyanka Talwar: So what would be the possibility when my blood tests are normal?
+
+366
+01:00:03.930 --> 01:00:05.869
+Priyanka Talwar: I'm still related to the…
+
+367
+01:00:05.870 --> 01:00:09.489
+Dr Sanyogeeta Kulkarni: Yeah, Priyankajik, may I know your age, please?
+
+368
+01:00:09.610 --> 01:00:12.900
+Priyanka Talwar: So I… I would be 32 in June.
+
+369
+01:00:12.900 --> 01:00:13.950
+Dr Sanyogeeta Kulkarni: Okay.
+
+370
+01:00:14.150 --> 01:00:22.219
+Dr Sanyogeeta Kulkarni: Take care. Aapka sleep ke sahai, do you get proper sleep? 8 hours ka, proper sleep, sleep hota hai, aapka roj?
+
+371
+01:00:22.220 --> 01:00:28.259
+Priyanka Talwar: disturb, like, not a fresh soup.
+
+372
+01:00:29.180 --> 01:00:32.720
+Priyanka Talwar: Like, say it's disturbed, every 2-3 hours.
+
+373
+01:00:32.960 --> 01:00:33.460
+Dr Sanyogeeta Kulkarni: Oh.
+
+374
+01:00:34.120 --> 01:00:45.170
+Dr Sanyogeeta Kulkarni: So, deki, agar aapka nien pura nihuranath body aapka rejunation ne karpara, recovery jo momenta, huh? Ki hamar neen bhi, proper sleep also give us recovery.
+
+375
+01:00:45.220 --> 01:00:53.460
+Dr Sanyogeeta Kulkarni: lekin…
+
+376
+01:00:53.460 --> 01:01:07.869
+Dr Sanyogeeta Kulkarni: healing ka jo process hota na, wo yein mehi hota hai. Agar aapka sleep disturbehar thin kontem me agarap ut raho, toh aapka wo proper healing hi nahi hora ha. Iski wa ja se aapka may be, maybe aapka hormonal imbalance hora hai.
+
+377
+01:01:08.130 --> 01:01:20.840
+Dr Sanyogeeta Kulkarni: Cortisol level badge aapko shy the overweight jubih excess weight gain hora hai, ho sakta hai. Toh si do that ki aap proper ace se nin lei.
+
+378
+01:01:23.670 --> 01:01:30.330
+Priyanka Talwar: Yeah, Lama, like, okay, and the truth is, what could be the thing that I should follow?
+
+379
+01:01:31.370 --> 01:01:34.750
+Dr Sanyogeeta Kulkarni: Sorry, I, can't hear you properly.
+
+380
+01:01:34.750 --> 01:01:37.030
+Priyanka Talwar: Singly, what else I should follow.
+
+381
+01:01:37.250 --> 01:01:40.660
+Priyanka Talwar: Apart from getting a proper sleep, Where should I follow?
+
+382
+01:01:40.660 --> 01:01:55.979
+Dr Sanyogeeta Kulkarni: agar aapkush physical activity nahi kar yaw. Agar aapka sedentary life hai toh, you should start some, you know, like, shuru karse akte ho, morning walk seh. Morning mein possible nahi ito aap shyko walk karo. At least walk for 40 minutes.
+
+383
+01:01:59.050 --> 01:02:00.740
+Priyanka Talwar: Also, deductions.
+
+384
+01:02:01.100 --> 01:02:02.280
+Priyanka Talwar: Thank you.
+
+385
+01:02:02.280 --> 01:02:03.140
+Dr Sanyogeeta Kulkarni: Thank you.
+
+386
+01:02:04.580 --> 01:02:08.129
+Mridul Sharma: Okay, so I think now, you can…
+
+387
+01:02:08.830 --> 01:02:18.789
+Mridul Sharma: missed in the call, and so there's an announcement, agar aki give me questions bhce, and you think you can't ask on this call. So, apload.
+
+388
+01:02:21.630 --> 01:02:31.279
+Mridul Sharma: one-on-one session bilhakti, kulkani jigisar. So, for that, you have to mention, in the group, the WhatsApp channel, or maybe you can approach Ashnaji.
+
+389
+01:02:31.390 --> 01:02:39.729
+Mridul Sharma: So she can have a one-on-one session with, not to say Yumi Raji. And with that note, endart next call go, and I would like to…
+
+390
+01:02:39.730 --> 01:02:42.040
+laju: Sorry, can I ask last one, last one, last.
+
+391
+01:02:42.040 --> 01:02:43.839
+Mridul Sharma: Yes, yes, please, please.
+
+392
+01:02:43.840 --> 01:02:58.450
+laju: Okay, I just want to know, like, is this, like, can we have more sessions like this? Like, agar hamloko, aka karke, help, help, naijan hai, yeah, counseling nahi karnai.
+
+393
+01:02:58.450 --> 01:03:06.449
+laju: So I think group, group, group activity was like that, just maybe obviously pay, but, then another group of 4 people.
+
+394
+01:03:06.450 --> 01:03:20.319
+Mridul Sharma: So I was… I was about to… I was about to say that only. Ji will be the counselor for that call.
+
+395
+01:03:20.320 --> 01:03:27.809
+Mridul Sharma: meeting occurring, yes. So, for that, also, you have to stay tuned in the group, so that… and Vidur Rapne, which is Dijayak, yes, so, definitely I can…
+
+396
+01:03:27.810 --> 01:03:38.459
+laju: Okay, with the detox one, also, ki, it's a very easy recipe, jab hostel mein banana sakte, jise kudzabji lege, kush banana sakte.
+
+397
+01:03:38.460 --> 01:03:39.160
+Mridul Sharma: Yeah, I can understand.
+
+398
+01:03:39.160 --> 01:03:41.119
+laju: Mega told me that'll be great, thank you.
+
+399
+01:03:41.120 --> 01:03:43.050
+Mridul Sharma: Geez, okay, sure.
+
+400
+01:03:44.570 --> 01:03:48.369
+Mridul Sharma: Radhiji has raised his hand.
+
+401
+01:03:49.090 --> 01:03:57.180
+Rajeev: Thank you. So, ma'am, some very questions, like, mujay, allergic, allergy ratay, allergic rhinatics.
+
+402
+01:03:57.280 --> 01:04:14.540
+Rajeev: So, sorry, Dr. So, food hai jo melaw asakar, soya.
+
+403
+01:04:16.420 --> 01:04:21.369
+Dr Sanyogeeta Kulkarni: Rajuji, allergy is, basically na, ya koi disease na ya.
+
+404
+01:04:21.690 --> 01:04:41.199
+Dr Sanyogeeta Kulkarni: Huh? Toh, iskel ye, basically, body kajab immunity kam hojata na. Toh koi bheski humay allergy ho sakti hai. Yes, dust tagya toh ham log chikati hai. Toh, basically, body ki immunity badane wala food hame intake karna chali. And that is the vegetables, green juice.
+
+405
+01:04:42.890 --> 01:04:48.390
+Dr Sanyogeeta Kulkarni: Vitamin D linea, malaba aap nature mein jo, duh mein ada kanta roj bait ye aap.
+
+406
+01:04:49.020 --> 01:04:56.389
+Dr Sanyogeeta Kulkarni: Toh aapne aap sharir ki immunity burne se ye allergy jisa jo bhi bhimari haiwon, chalih jagi.
+
+407
+01:04:57.880 --> 01:04:58.590
+Dr Sanyogeeta Kulkarni: So, knowing…
+
+408
+01:04:58.590 --> 01:05:01.279
+Rajeev: I cannot cure without the other immune system.
+
+409
+01:05:01.280 --> 01:05:15.530
+Dr Sanyogeeta Kulkarni: It takes… it takes time, but yeah, I can tell you, ki, guarantee that yo ki agar aap aapka food habits change karenge, healthy lifestyle aap nahenge, toh, surely aapise chutkara aapasek thin.
+
+410
+01:05:17.870 --> 01:05:34.339
+Dr Sanyogeeta Kulkarni: But wo consistency ki bohot zarura toti is mein. Any, like, migraine hai, allergic condition hai, weight loss hai, hamlock dhin kareenge hamlock tag jaang ki nahi ba nahi hota, and then you decide kine moji medicine hi kana hai. So, it won't work.
+
+411
+01:05:37.870 --> 01:05:39.279
+Rajeev: Thank you, thank you.
+
+412
+01:05:39.280 --> 01:05:40.150
+Dr Sanyogeeta Kulkarni: Thank you.
+
+413
+01:05:42.440 --> 01:05:43.220
+Mridul Sharma: Take care.
+
+414
+01:05:43.340 --> 01:05:50.700
+Mridul Sharma: You can… And thank you, UG, for having us… this session. So, yeah.
+
+415
+01:05:51.100 --> 01:05:52.450
+Dr Sanyogeeta Kulkarni: Thank you so much.
+
+416
+01:05:52.660 --> 01:05:53.340
+Mridul Sharma: Be careful.
+
+417
+01:05:56.730 --> 01:05:57.990
+Manisha: Thank you so much.
+
+418
+01:05:58.450 --> 01:05:59.220
+Dr Sanyogeeta Kulkarni: Thank you.
+
+419
+01:05:59.220 --> 01:05:59.780
+Mridul Sharma: Thank you.
+
+420
+01:05:59.780 --> 01:06:02.070
+Priyanka Talwar: Thank you for the same system.
+
