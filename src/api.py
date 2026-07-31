@@ -3,6 +3,7 @@ import json
 import threading
 from contextlib import asynccontextmanager
 
+from qdrant_client.http import models as qdrant_models
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
@@ -69,6 +70,21 @@ _retrieval_lock = threading.Lock()
 _state: dict = {"index": None, "resolver": None}
 
 
+def _ensure_course_filter_index(client) -> None:
+    """Create the payload index required for filtering chunks by course_id."""
+    collection_info = client.get_collection(COLLECTION)
+    if "course_id" in (collection_info.payload_schema or {}):
+        return
+
+    print("   Creating Qdrant keyword index for course_id...")
+    client.create_payload_index(
+        collection_name=COLLECTION,
+        field_name="course_id",
+        field_schema=qdrant_models.PayloadSchemaType.KEYWORD,
+        wait=True,
+    )
+
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     print("1. Loading embedding model...")
@@ -80,6 +96,7 @@ async def lifespan(app: FastAPI):
     print("3. Connecting to Qdrant...")
     client = create_qdrant_client()
     print(f"   Using {qdrant_mode_label()} Qdrant backend.")
+    _ensure_course_filter_index(client)
     vector_store = QdrantVectorStore(client=client, collection_name=COLLECTION)
 
     print("4. Loading index...")
