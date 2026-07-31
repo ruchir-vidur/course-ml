@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import threading
 from contextlib import asynccontextmanager
@@ -9,7 +10,12 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
-from llama_index.core import VectorStoreIndex, Settings, PromptTemplate
+from llama_index.core import (
+    VectorStoreIndex,
+    Settings,
+    PromptTemplate,
+    get_response_synthesizer,
+)
 from llama_index.embeddings.fastembed import FastEmbedEmbedding
 from llama_index.vector_stores.qdrant import QdrantVectorStore
 from llama_index.llms.groq import Groq
@@ -40,23 +46,42 @@ if not GROQ_API_KEY:
 EMBED_MODEL = os.environ.get("EMBED_MODEL", "BAAI/bge-small-en-v1.5")
 LLM_MODEL = os.environ.get("LLM_MODEL", "llama-3.3-70b-versatile")
 COLLECTION = os.environ.get("QDRANT_COLLECTION", "vidur_course_embeddings")
-SIMILARITY_TOP_K = int(os.environ.get("SIMILARITY_TOP_K", "3"))
+# Retrieve a wider candidate set, then a cross-encoder reranks down to the best
+# few — noticeably better than raw vector top-k, still light (ONNX, no torch).
+SIMILARITY_TOP_K = int(os.environ.get("SIMILARITY_TOP_K", "8"))
+RERANK_TOP_N = int(os.environ.get("RERANK_TOP_N", "4"))
+RERANK_MODEL = os.environ.get("RERANK_MODEL", "Xenova/ms-marco-MiniLM-L-6-v2")
 # MongoDB (course catalog) — used to build an accurate id→title map so the server
 # can resolve whatever the frontend sends to the right indexed course.
 MONGO_URI = os.environ.get("MONGO_URI")
 MONGO_DB = os.environ.get("MONGO_DB")  # optional; defaults to the DB in the URI
 
-QA_PROMPT_TMPL = PromptTemplate(
-    "You are an expert AI teaching assistant for a course. \n"
-    "Below is context from the course transcripts. Each piece of context has metadata attached.\n"
-    "---------------------\n"
-    "{context_str}\n"
-    "---------------------\n"
-    "Given the context information and not prior knowledge, answer the user's query.\n"
-    "You MUST explicitly cite the exact session and provide the video link at the end of your answer.\n"
-    "Query: {query_str}\n"
-    "Answer: "
-)
+def _qa_prompt(course_name: str) -> PromptTemplate:
+    """Course-aware QA prompt. Produces clean Markdown grounded strictly in the
+    transcript context. It must NOT paste URLs or citation lists — the app renders
+    the exact source videos as clickable chips from structured metadata."""
+    return PromptTemplate(
+        'You are Vidur, a warm and precise AI tutor for the course "' + course_name + '". '
+        "Help the learner using ONLY the course transcript excerpts provided below.\n\n"
+        "How to write your answer:\n"
+        "- Answer in clean Markdown. Lead with the direct answer, then add supporting detail.\n"
+        "- Use short paragraphs, and bullet or numbered lists for steps or multiple points. **Bold** key terms.\n"
+        "- Be concise and warm, like a great teacher — no filler, no repetition, no preamble like 'Based on the context'.\n\n"
+        "Grounding rules (important):\n"
+        "- Base every statement strictly on the context. Never use outside knowledge or invent names, facts, or numbers.\n"
+        "- Refer to specific teachings naturally in prose when useful (e.g., \"In Session 2, the teacher explains…\").\n"
+        "- Do NOT paste URLs, links, or a list of citations — the app shows the exact source videos separately, below your answer.\n"
+        "- If the answer isn't in the context, say so briefly in one sentence and point to what this course does cover that's related.\n\n"
+        "Course context:\n"
+        "---------------------\n"
+        "{context_str}\n"
+        "---------------------\n\n"
+        "Learner's question: {query_str}\n\n"
+        "Write your Markdown answer. Then, on the very last line, output a JSON array of exactly 3 short, "
+        "specific follow-up questions the learner is likely to ask next about this course — "
+        'e.g. ["...", "...", "..."]. Output nothing after that array.\n\n'
+        "Your answer:"
+    )
 
 # Local (file-based) Qdrant locks the DB to a single client, and the sqlite
 # backend is not safe under concurrent access from multiple threads. Because
@@ -151,16 +176,57 @@ def _sse(payload: dict) -> str:
     return f"data: {json.dumps(payload)}\n\n"
 
 
-def _build_query_engine(course_id: str):
+# Lazily-loaded cross-encoder reranker (FastEmbed / ONNX). Loaded on first use so
+# startup stays fast; if it can't load or run, we fall back to plain vector order.
+_reranker: dict = {"enc": None, "failed": False}
+
+
+def _rerank(query: str, nodes: list, top_n: int) -> list:
+    """Reorder retrieved nodes by cross-encoder relevance and keep the best top_n.
+    Never raises — on any failure it returns the vector-ordered top_n. Set the env
+    var RERANK_MODEL to an empty string to disable reranking entirely."""
+    if not nodes or _reranker["failed"] or not RERANK_MODEL:
+        return nodes[:top_n]
+    try:
+        if _reranker["enc"] is None:
+            from fastembed.rerank.cross_encoder import TextCrossEncoder
+
+            print(f"   Loading reranker {RERANK_MODEL}...")
+            _reranker["enc"] = TextCrossEncoder(model_name=RERANK_MODEL)
+        docs = [n.node.get_content() for n in nodes]
+        scores = list(_reranker["enc"].rerank(query, docs))
+        ranked = sorted(zip(nodes, scores), key=lambda p: p[1], reverse=True)
+        for n, s in ranked:
+            n.score = float(s)
+        return [n for n, _ in ranked[:top_n]]
+    except Exception as e:  # noqa: BLE001
+        print(f"   ⚠️  Reranker unavailable, using vector order ({e}).")
+        _reranker["failed"] = True
+        return nodes[:top_n]
+
+
+def _retrieve(course_id: str, message: str) -> list:
+    """Vector retrieve (filtered to the course), then cross-encoder rerank."""
     course_filter = MetadataFilters(
         filters=[ExactMatchFilter(key="course_id", value=course_id)]
     )
-    return _state["index"].as_query_engine(
-        similarity_top_k=SIMILARITY_TOP_K,
-        filters=course_filter,
-        text_qa_template=QA_PROMPT_TMPL,
-        streaming=True,
+    retriever = _state["index"].as_retriever(
+        similarity_top_k=SIMILARITY_TOP_K, filters=course_filter
     )
+    # Retrieval touches Qdrant — serialize it (local file-based Qdrant is single-writer).
+    with _retrieval_lock:
+        nodes = retriever.retrieve(message)
+    return _rerank(message, nodes, RERANK_TOP_N)
+
+
+def _pretty_session(session: str | None) -> str:
+    """'session 3' / 'session3' -> 'Session 3' for nicer source-chip labels."""
+    if not session:
+        return "Source"
+    m = re.match(r"\s*session\s*(\d+)", session, re.IGNORECASE)
+    if m:
+        return f"Session {m.group(1)}"
+    return session[:1].upper() + session[1:]
 
 
 def _resources_from_response(response) -> list:
@@ -178,15 +244,22 @@ def _resources_from_response(response) -> list:
         if link in seen:
             continue
         seen.add(link)
+        # A short transcript preview so the learner sees why this moment was cited.
+        try:
+            text = re.sub(r"\s+", " ", (node.get_content() or "")).strip()
+        except Exception:
+            text = ""
+        snippet = text[:160].rstrip() + ("…" if len(text) > 160 else "")
         resources.append(
             {
                 # `title` + `url` match the workspace ChatResource shape so the
                 # frontend renders these as clickable source links directly.
-                "title": session or "Source",
+                "title": _pretty_session(session),
                 "url": link,
                 "session": session,
                 "video_url": video_url,
                 "start_time_seconds": start,
+                "snippet": snippet,
             }
         )
     return resources
@@ -199,11 +272,15 @@ def event_stream(course_identifier: str, message: str):
         resolver: CourseResolver = _state["resolver"]
         course_id = resolver.resolve(course_identifier) if resolver else course_identifier
 
-        engine = _build_query_engine(course_id)
-
-        # Retrieval touches local Qdrant — serialize it.
-        with _retrieval_lock:
-            response = engine.query(message)
+        # Retrieve a wide candidate set, rerank to the best few, then synthesize a
+        # streamed answer grounded in exactly those chunks.
+        nodes = _retrieve(course_id, message)
+        synthesizer = get_response_synthesizer(
+            text_qa_template=_qa_prompt(course_id),
+            response_mode="compact",
+            streaming=True,
+        )
+        response = synthesizer.synthesize(message, nodes=nodes)
 
         # Stream the LLM tokens as they arrive.
         for token in response.response_gen:
