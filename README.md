@@ -124,15 +124,16 @@ Step by step:
 2. In Render, create a new Web Service and connect that repo.
 3. Choose the repo root as the service root.
 4. Use the included [render.yaml](render.yaml) or copy these values into Render's UI:
-  - Build Command: `pip install -r requirements.txt`
-  - Start Command: `cd src && uvicorn api:app --host 0.0.0.0 --port $PORT`
-5. Add these environment variables in Render:
+   - Build Command: `pip install -r requirements.txt`
+   - Start Command: `cd src && uvicorn api:app --host 0.0.0.0 --port $PORT`
+5. Keep [runtime.txt](runtime.txt) in the repo so Render uses Python 3.11.8.
+6. Add these environment variables in Render:
   - `GROQ_API_KEY`
   - `QDRANT_URL`
   - `QDRANT_API_KEY`
   - `MONGO_URI` if you want title resolution from Mongo
   - `MONGO_DB` if your Mongo database is not already in the URI
-6. Deploy.
+7. Deploy.
 
 Things you do not need on Render now:
 
