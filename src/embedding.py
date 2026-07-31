@@ -1,5 +1,5 @@
 from llama_index.core import VectorStoreIndex, StorageContext, Settings
-from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+from llama_index.embeddings.fastembed import FastEmbedEmbedding
 from llama_index.vector_stores.qdrant import QdrantVectorStore
 
 # importing the parsed documents from src/parser.py
@@ -12,7 +12,7 @@ def embed():
 
 
     print("2. Setting up the embedding model")
-    embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5")
+    embed_model = FastEmbedEmbedding(model_name="BAAI/bge-small-en-v1.5")
 
     Settings.embed_model = embed_model
     Settings.llm = None  # Disable LLM usage

@@ -1,23 +1,25 @@
----
-title: Vidur Course ML
-emoji: 🧠
-colorFrom: teal
-colorTo: orange
-sdk: docker
-app_port: 7860
----
-
 # Vidur Course ML
 
-FastAPI service that answers questions about Vidur course transcripts. It retrieves relevant transcript chunks from Qdrant and streams responses from Groq.
+FastAPI service that answers questions about Vidur course transcripts. It embeds
+the query with **FastEmbed** (ONNX — no torch), retrieves the relevant transcript
+chunks from **Qdrant Cloud**, and streams the answer from **Groq**.
 
 ## Requirements
 
-- Python 3.10 or newer
+- Python 3.11 (pinned in `.python-version`)
 - A Groq API key
-- Course transcripts in WebVTT (`.vtt`) format, if you need to build or rebuild the local index
+- A Qdrant Cloud cluster (URL + API key)
+- Optionally, MongoDB (to resolve course `_id`s / titles to transcript folders)
 
-## Setup
+## Endpoints
+
+- `GET /health` — readiness
+- `GET /courses` — courses that have vectorized transcripts
+- `POST /chat_stream` — streaming (SSE) answer; body: `{ "course_title": "...", "message": "..." }`
+  (`course_id` is also accepted; the server resolves a title or hash id to the
+  right transcript folder)
+
+## Local setup
 
 ```powershell
 python -m venv .venv
@@ -26,11 +28,14 @@ pip install -r requirements.txt
 Copy-Item .env.example .env
 ```
 
-Set `GROQ_API_KEY` in `.env`. `MONGO_URI` is optional; it enables resolving MongoDB course IDs to the corresponding transcript folders.
+Fill in `.env` (see `.env.example`): `GROQ_API_KEY`, `QDRANT_URL`, `QDRANT_API_KEY`,
+and optionally `MONGO_URI` (+ `MONGO_DB`). Without `QDRANT_URL` the app falls back
+to a local on-disk `qdrant_db/` folder for development.
 
-## Prepare course data
+## Prepare course data + build the index
 
-Put each course's `.vtt` sessions in a separate folder under `data/`, for example:
+Put each course's `.vtt` sessions in a folder under `data/` (the folder name is
+the course's `course_id`):
 
 ```text
 data/
@@ -39,108 +44,52 @@ data/
     session 2.vtt
 ```
 
-Build the local Qdrant index from the `src` directory:
+With `QDRANT_URL`/`QDRANT_API_KEY` set, build the index straight into Qdrant Cloud:
 
 ```powershell
 Set-Location src
-python embedding.py
+python embedding.py      # embeds with FastEmbed and upserts to Qdrant Cloud
 Set-Location ..
 ```
 
-The transcripts and generated `qdrant_db/` are deliberately excluded from Git. Only add them to a private repository if you have permission to distribute them.
+The transcripts and any local `qdrant_db/` are excluded from Git — only add them
+to a private repo if you're allowed to distribute them.
 
-## Run the API
+> Note: the embedding backend must match between indexing and querying. Both use
+> FastEmbed (`BAAI/bge-small-en-v1.5`), so always (re)build the index with
+> `embedding.py` — don't mix in vectors produced by a different embedder.
 
-```powershell
-Set-Location src
-uvicorn api:app --host 0.0.0.0 --port 8000
-```
-
-Available endpoints include:
-
-- `GET /health`
-- `GET /courses`
-- `POST /chat` (streaming response)
-
-For development, use `--reload` with the Uvicorn command above.
-
-## Hugging Face Spaces
-
-This project is set up to run as a Docker Space.
-
-Use these Space secrets and variables:
-
-- `GROQ_API_KEY` as a secret
-- `QDRANT_URL` as a secret or variable
-- `QDRANT_API_KEY` as a secret
-- `MONGO_URI` as a secret if you use the course catalog
-- `MONGO_DB` as a variable if needed
-
-Not needed on the Space runtime:
-
-- `embedding.py`
-- `migrate_qdrant.py`
-- `qdrant_db/`
-- local `.venv`
-
-The app only needs the deployed code, your Qdrant Cloud connection, and the runtime secrets above.
-
-## Move vectors to Qdrant Cloud
-
-Qdrant Cloud has a free tier for testing and prototypes. At the time of writing,
-it includes a single-node cluster with 0.5 vCPU, 1 GB RAM, and 4 GB disk. If the
-collection grows beyond that, you need to move to a paid tier.
-
-To use Cloud instead of the local `qdrant_db/` folder:
-
-1. Create a Qdrant Cloud cluster and copy its URL and API key.
-2. Set `QDRANT_URL` and `QDRANT_API_KEY` in `.env`.
-3. Keep your current local `qdrant_db/` folder in place.
-4. Run the migration script from `src`:
+## Run the API locally
 
 ```powershell
 Set-Location src
-python migrate_qdrant.py
-Set-Location ..
+uvicorn api:app --host 0.0.0.0 --port 8000   # add --reload for development
 ```
 
-After migration, the API and embedding scripts will automatically use Cloud when
-`QDRANT_URL` is present. If you want to keep using the local folder, leave those
-variables unset.
+## Deploy on Render
 
-## Deployment notes
+Render is the intended host now that Qdrant lives in Cloud.
 
-This service uses a local Qdrant database, so the deployment must either build the index during its release process or attach persistent storage containing `qdrant_db/`. Configure secrets through the hosting provider's environment-variable settings; never commit `.env`.
-
-Before exposing the API publicly, replace the permissive CORS setting in `src/api.py` with the exact frontend origin(s).
-
-## Render Deployment
-
-Render is the easiest fit for this backend now that Qdrant lives in Cloud.
-
-Step by step:
-
-1. Push this `course-ml` folder to a GitHub repo.
-2. In Render, create a new Web Service and connect that repo.
-3. Choose the repo root as the service root.
-4. Use the included [render.yaml](render.yaml) or copy these values into Render's UI:
+1. Push this `course-ml` folder to a GitHub repo (repo root = `course-ml`).
+2. In Render, create a **Web Service** from that repo. It reads `render.yaml`, or set:
    - Build Command: `pip install -r requirements.txt`
    - Start Command: `cd src && uvicorn api:app --host 0.0.0.0 --port $PORT`
-5. Keep [runtime.txt](runtime.txt) in the repo so Render uses Python 3.11.8.
-6. Add these environment variables in Render:
-  - `GROQ_API_KEY`
-  - `QDRANT_URL`
-  - `QDRANT_API_KEY`
-  - `MONGO_URI` if you want title resolution from Mongo
-  - `MONGO_DB` if your Mongo database is not already in the URI
-7. Deploy.
+   - Health Check Path: `/health`
+3. Python 3.11.8 is pinned via `.python-version` — no extra config needed.
+4. Add environment variables:
+   - `GROQ_API_KEY`
+   - `QDRANT_URL`, `QDRANT_API_KEY`
+   - `MONGO_URI` (optional — enables Mongo title resolution), `MONGO_DB` (optional)
+5. Deploy.
 
-Things you do not need on Render now:
+The image is intentionally light (FastEmbed/ONNX, no torch), so it fits Render's
+smaller instances. First boot downloads the small ONNX embedding model (~130MB).
 
-- `embedding.py`
-- `migrate_qdrant.py`
-- `qdrant_db/`
-- `.venv/`
-- Hugging Face Spaces settings
+Only the runtime needs to reach Qdrant Cloud + Groq + (optionally) Mongo — you do
+**not** need `qdrant_db/` or `.venv/` on the host. `embedding.py` is only used to
+build the index; it isn't part of serving requests.
 
-If you ever need to rebuild vectors, run `python src/embedding.py` locally and then migrate once with `python src/migrate_qdrant.py`.
+## Before going public
+
+Replace the permissive CORS setting in `src/api.py` with the exact frontend
+origin(s), and never commit `.env`.

@@ -1,27 +1,20 @@
-# Fully pinned to the known-working local set (minus Windows-only packages like
-# pywin32) so pip resolves deterministically on Render's Linux + Python 3.12.
-# The llama-index sub-packages are interlocked (each requires core<0.15,>=0.13),
-# so they're all pinned together — otherwise pip may pick llms-openai-like 0.5.0,
-# which caps core<0.14 and conflicts with core 0.14.23.
+# Runtime dependencies for the course RAG API, kept lean for small hosts (Render).
+# Embeddings run through FastEmbed (ONNX runtime) — NOT torch/sentence-transformers
+# — which drops ~2GB of deps and the associated RAM. Same model (BAAI/bge-small-en-v1.5).
+# Pinned to a set verified to resolve together on Python 3.12.
 
-# --- llama-index stack (mutually compatible) ---
+# --- llama-index stack (interlocked; all require core<0.15,>=0.13) ---
 llama-index-core==0.14.23
-llama-index-embeddings-huggingface==0.7.0
+llama-index-embeddings-fastembed==0.6.0
 llama-index-llms-groq==0.5.0
 llama-index-llms-openai==0.6.26
 llama-index-llms-openai-like==0.5.3
 llama-index-vector-stores-qdrant==0.10.2
 
-# --- ML runtime for the BGE embedding model (matched to huggingface-hub 0.36.x
-#     so the 'inference' extra / hub 1.x incompatibility doesn't bite) ---
-huggingface-hub==0.36.2
-sentence-transformers==5.6.1
-transformers==4.57.6
-tokenizers==0.22.2
-torch==2.13.0
-numpy==2.5.1
+# --- lightweight ONNX embedding backend ---
+fastembed==0.8.0
 
-# --- vector DB, data parsing, and the API server ---
+# --- vector DB (cloud), data parsing, and the API server ---
 qdrant-client==1.18.0
 webvtt-py==0.5.1
 pymongo==4.10.1

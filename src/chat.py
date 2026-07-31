@@ -1,6 +1,6 @@
 import os
 from llama_index.core import VectorStoreIndex, Settings, PromptTemplate
-from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+from llama_index.embeddings.fastembed import FastEmbedEmbedding
 from llama_index.vector_stores.qdrant import QdrantVectorStore
 from llama_index.llms.groq import Groq
 # NEW: Import filtering tools
@@ -21,7 +21,7 @@ if not GROQ_API_KEY:
 
 def setup_query_engine(selected_course: str):
     print("1. Loading Embedding Model...")
-    Settings.embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5")
+    Settings.embed_model = FastEmbedEmbedding(model_name="BAAI/bge-small-en-v1.5")
 
     print("2. Connecting to Llama 3 via Groq...")
     Settings.llm = Groq(model="llama-3.3-70b-versatile", api_key=GROQ_API_KEY)

@@ -10,7 +10,7 @@ from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
 from llama_index.core import VectorStoreIndex, Settings, PromptTemplate
-from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+from llama_index.embeddings.fastembed import FastEmbedEmbedding
 from llama_index.vector_stores.qdrant import QdrantVectorStore
 from llama_index.llms.groq import Groq
 from llama_index.core.vector_stores import ExactMatchFilter, MetadataFilters
@@ -88,7 +88,7 @@ def _ensure_course_filter_index(client) -> None:
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     print("1. Loading embedding model...")
-    Settings.embed_model = HuggingFaceEmbedding(model_name=EMBED_MODEL)
+    Settings.embed_model = FastEmbedEmbedding(model_name=EMBED_MODEL)
 
     print("2. Connecting to Groq...")
     Settings.llm = Groq(model=LLM_MODEL, api_key=GROQ_API_KEY)
