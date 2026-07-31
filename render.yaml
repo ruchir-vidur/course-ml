@@ -5,5 +5,19 @@ services:
     rootDir: .
     buildCommand: pip install -r requirements.txt
     startCommand: cd src && uvicorn api:app --host 0.0.0.0 --port $PORT
+    # WARNING: torch + the BGE embedding model need ~1.5-2GB RAM. The free plan
+    # (512MB) will OOM at startup — move to `standard` if the service crashes on boot.
     plan: free
     autoDeploy: true
+    healthCheckPath: /health
+    envVars:
+      # Set the actual values in the Render dashboard (they are secrets).
+      - key: GROQ_API_KEY
+        sync: false
+      - key: MONGO_URI
+        sync: false
+      # Qdrant Cloud — Render has no persistent local disk for the on-disk index.
+      - key: QDRANT_URL
+        sync: false
+      - key: QDRANT_API_KEY
+        sync: false
