@@ -95,8 +95,12 @@ async def lifespan(app: FastAPI):
 
     print("3. Connecting to Qdrant...")
     client = create_qdrant_client()
-    print(f"   Using {qdrant_mode_label()} Qdrant backend.")
-    _ensure_course_filter_index(client)
+    qdrant_mode = qdrant_mode_label()
+    print(f"   Using {qdrant_mode} Qdrant backend.")
+    # Embedded/local Qdrant supports filtering without payload indexes. A Qdrant
+    # server requires this index and otherwise rejects the course_id filter.
+    if qdrant_mode == "cloud":
+        _ensure_course_filter_index(client)
     vector_store = QdrantVectorStore(client=client, collection_name=COLLECTION)
 
     print("4. Loading index...")
